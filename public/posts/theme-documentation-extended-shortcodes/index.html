@@ -1,0 +1,1490 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" />
+    <title>Theme Documentation - Extended Shortcodes - DoIt</title><meta name="Description" content="DoIt theme provides multiple shortcodes on top of built-in ones in Hugo."><meta property="og:title" content="Theme Documentation - Extended Shortcodes" />
+<meta property="og:description" content="DoIt theme provides multiple shortcodes on top of built-in ones in Hugo." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bobergo.github.io/posts/theme-documentation-extended-shortcodes/" /><meta property="og:image" content="https://bobergo.github.io/posts/theme-documentation-extended-shortcodes/featured-image-preview.webp"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-03-06T16:29:41+08:00" />
+<meta property="article:modified_time" content="2020-03-06T16:29:41+08:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://bobergo.github.io/posts/theme-documentation-extended-shortcodes/featured-image-preview.webp"/>
+<meta name="twitter:title" content="Theme Documentation - Extended Shortcodes"/>
+<meta name="twitter:description" content="DoIt theme provides multiple shortcodes on top of built-in ones in Hugo."/>
+<meta name="application-name" content="DoIt">
+<meta name="apple-mobile-web-app-title" content="DoIt">
+
+<meta name="theme-color" content="#f8f8f8"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="canonical" href="https://bobergo.github.io/posts/theme-documentation-extended-shortcodes/" /><link rel="prev" href="https://bobergo.github.io/posts/basic-markdown-syntax/" /><link rel="next" href="https://bobergo.github.io/posts/theme-documentation-built-in-shortcodes/" />
+<link rel="stylesheet" href="/css/main.css"><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Theme Documentation - Extended Shortcodes",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/bobergo.github.io\/posts\/theme-documentation-extended-shortcodes\/"
+        },"genre": "posts","keywords": "shortcodes","wordcount":  3828 ,
+        "url": "https:\/\/bobergo.github.io\/posts\/theme-documentation-extended-shortcodes\/","datePublished": "2020-03-06T16:29:41+08:00","dateModified": "2020-03-06T16:29:41+08:00","publisher": {
+            "@type": "Organization",
+            "name": "Author"},"authors": [{
+                        "@type": "Person",
+                        "name": "Dillon"                    
+                    },{
+                        "@type": "Person",
+                        "name": "PCloud"                    
+                    }],"description": "DoIt theme provides multiple shortcodes on top of built-in ones in Hugo."
+    }
+    </script><script src="//instant.page/5.2.0" defer type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+</head>
+
+<body header-desktop="" header-mobile=""><script type="text/javascript">
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme;   window.isDark = window.theme !== 'light' }
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('' === 'light' || '' === 'dark' || '' === 'black') setTheme(''), saveTheme(''); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+        window.switchThemeEventSet = new Set()
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="DoIt">DoIt</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="DoIt">DoIt</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+            <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Theme Documentation - Extended Shortcodes</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><span class='author'><span class="author fas fa-user-circle fa-fw"></span><span class='screen-reader-text'>  </span><a href='https://bobergo.github.io/authors/dillon'>Dillon</a>, <a href='https://bobergo.github.io/authors/pcloud'>PCloud</a></span>
+                </span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>Documentation</a></span>&nbsp;<span class="post-category">and</span>&nbsp;<span class="post-series">series <a href="/series/getting-start/"><i class="far fa-list-alt fa-fw"></i>Getting start with DoIt</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-03-06">2020-03-06</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2020-03-06">2020-03-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;3828 words&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;18 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        
+        loading="eager"
+        src="/posts/theme-documentation-extended-shortcodes/featured-image.webp"
+        srcset="/posts/theme-documentation-extended-shortcodes/featured-image.webp, /posts/theme-documentation-extended-shortcodes/featured-image.webp 1.5x, /posts/theme-documentation-extended-shortcodes/featured-image.webp 2x"
+        sizes="auto"
+        alt="DoIt theme provides multiple shortcodes on top of built-in ones in Hugo."
+        title="DoIt theme provides multiple shortcodes on top of built-in ones in Hugo." height="720"   width="1280" ></div><div class="content" id="content"><p><strong>DoIt</strong> theme provides multiple shortcodes on top of built-in ones in Hugo.</p>
+<h2 id="style" class="headerLink">
+    <a href="#style" class="header-mark"></a>style</h2><a href="https://github.com/HEIGE-PCloud/DoIt/releases/tag/v0.2.0" rel="noopener noreferrer" target="_blank"><img
+        class="version"
+        loading="lazy"
+        src="/svg/version/0.2.0-changed.min.svg"
+        srcset="/svg/version/0.2.0-changed.min.svg, /svg/version/0.2.0-changed.min.svg 1.5x, /svg/version/0.2.0-changed.min.svg 2x"
+        sizes="auto"
+        alt="DoIt CHANGED | 0.2.0"
+        title="DoIt CHANGED | 0.2.0" ></a>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Hugo <strong>extended</strong> version is necessary for <code>style</code> shortcode.</div>
+        </div>
+    </div>
+<p><code>style</code> is a shortcode to insert custom style in your post.</p>
+<p>The <code>style</code> shortcode has two positional parameters.</p>
+<p>The <strong>first</strong> one is the custom style content,
+which supports nesting syntax in <a href="https://sass-lang.com/documentation/style-rules/declarations#nesting" target="_blank" rel="noopener noreferrer">:(fab fa-sass fa-fw): SASS</a>
+and <code>&amp;</code> referring to this parent HTML element.</p>
+<p>And the <strong>second</strong> one is the tag name of the HTML element wrapping the content you want to change the style, and whose default value is <code>div</code>.</p>
+<p>Example <code>style</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">style</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">text-align:right</span><span style="color:#960050;background-color:#1e0010">;</span> <span style="color:#a6e22e">strong</span><span style="color:#960050;background-color:#1e0010">{</span><span style="color:#a6e22e">color:</span><span style="color:#960050;background-color:#1e0010">#</span><span style="color:#a6e22e">00b1ff</span><span style="color:#960050;background-color:#1e0010">;}&#34;</span> &gt;<span style="color:#960050;background-color:#1e0010">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">This</span> <span style="color:#f92672">is</span> <span style="color:#f92672">a</span> <span style="font-weight:bold">**right-aligned**</span> <span style="color:#f92672">paragraph</span><span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span>{<span style="color:#960050;background-color:#1e0010">{</span>&lt; /<span style="color:#f92672">style</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<div id="id-1">This is a <strong>right-aligned</strong> paragraph.</div>
+<h2 id="link" class="headerLink">
+    <a href="#link" class="header-mark"></a>link</h2><a href="https://github.com/HEIGE-PCloud/DoIt/releases/tag/v0.2.0" rel="noopener noreferrer" target="_blank"><img
+        class="version"
+        loading="lazy"
+        src="/svg/version/0.2.0-new.min.svg"
+        srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
+        sizes="auto"
+        alt="DoIt NEW | 0.2.0"
+        title="DoIt NEW | 0.2.0" ></a>
+<p><code>link</code> shortcode is an alternative to <a href="../basic-markdown-syntax#links" rel="">Markdown link syntax</a>. <code>link</code> shortcode can provide some other features and can be used in code blocks.</p>
+<p><a href="https://github.com/HEIGE-PCloud/DoIt/releases/tag/v0.2.10" rel="noopener noreferrer" target="_blank"><img
+        class="version"
+        loading="lazy"
+        src="/svg/version/0.2.10-new.min.svg"
+        srcset="/svg/version/0.2.10-new.min.svg, /svg/version/0.2.10-new.min.svg 1.5x, /svg/version/0.2.10-new.min.svg 2x"
+        sizes="auto"
+        alt="DoIt NEW | 0.2.10"
+        title="DoIt NEW | 0.2.10" ></a> The complete usage of <a href="../theme-documentation-content#contents-organization" rel="">local resource references</a> is supported.</p>
+<p>The <code>link</code> shortcode has the following named parameters:</p>
+<ul>
+<li>
+<p><strong>href</strong> <em>[required]</em> (<strong>first</strong> positional parameter)</p>
+<p>Destination of the link.</p>
+</li>
+<li>
+<p><strong>content</strong> <em>[optional]</em> (<strong>second</strong> positional parameter)</p>
+<p>Content of the link, the default value is the value of <strong>href</strong> parameter.</p>
+<p><em>Markdown or HTML format is supported.</em></p>
+</li>
+<li>
+<p><strong>title</strong> <em>[optional]</em> (<strong>third</strong> positional parameter)</p>
+<p><code>title</code> attribute of the HTML <code>a</code> tag, which will be shown when hovering on the link.</p>
+</li>
+<li>
+<p><strong>class</strong> <em>[optional]</em></p>
+<p><code>class</code> attribute of the HTML <code>a</code> tag.</p>
+</li>
+<li>
+<p><strong>rel</strong> <em>[optional]</em></p>
+<p>Additional <code>rel</code> attributes of the HTML <code>a</code> tag.</p>
+</li>
+</ul>
+<p>Example <code>link</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">link</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">https:</span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">assemble</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">io</span><span style="color:#960050;background-color:#1e0010">&#34;</span> &gt;}}
+</span></span><span style="display:flex;"><span>Or
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">link</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://assemble.io&#34;</span> &gt;}}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">link</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">mailto:contact</span><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">revolunet</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">com</span><span style="color:#960050;background-color:#1e0010">&#34;</span> &gt;}}
+</span></span><span style="display:flex;"><span>Or
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">link</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mailto:contact@revolunet.com&#34;</span> &gt;}}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">link</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">https:</span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">assemble</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">io</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#a6e22e">Assemble</span> &gt;}}
+</span></span><span style="display:flex;"><span>Or
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">link</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://assemble.io&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">Assemble</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<ul>
+<li><a href="https://assemble.io" target="_blank" rel="noopener noreferrer">https://assemble.io</a></li>
+<li><a href="mailto:contact@revolunet.com" rel="">mailto:contact@revolunet.com</a></li>
+<li><a href="https://assemble.io" target="_blank" rel="noopener noreferrer">Assemble</a></li>
+</ul>
+<p>Example <code>link</code> input with a title:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">link</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">https:</span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">github</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">com</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">upstage</span><span style="color:#960050;background-color:#1e0010">/&#34;</span> <span style="color:#a6e22e">Upstage</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">Visit</span> <span style="color:#a6e22e">Upstage</span><span style="color:#960050;background-color:#1e0010">!&#34;</span> &gt;}}
+</span></span><span style="display:flex;"><span>Or
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">link</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://github.com/upstage/&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">Upstage</span> <span style="color:#a6e22e">title</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Visit Upstage!&#34;</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this (hover over the link, there should be a tooltip):</p>
+<a href="https://github.com/upstage/" title="Visit Upstage!" target="_blank" rel="noopener noreferrer">Upstage</a>
+<h2 id="image" class="headerLink">
+    <a href="#image" class="header-mark"></a>image</h2><a href="https://github.com/HEIGE-PCloud/DoIt/releases/tag/v0.2.0" rel="noopener noreferrer" target="_blank"><img
+        class="version"
+        loading="lazy"
+        src="/svg/version/0.2.0-changed.min.svg"
+        srcset="/svg/version/0.2.0-changed.min.svg, /svg/version/0.2.0-changed.min.svg 1.5x, /svg/version/0.2.0-changed.min.svg 2x"
+        sizes="auto"
+        alt="DoIt CHANGED | 0.2.0"
+        title="DoIt CHANGED | 0.2.0" ></a>
+<p><code>image</code> shortcode is an alternative to <a href="../theme-documentation-built-in-shortcodes#figure" rel=""><code>figure</code> shortcode</a>. <code>image</code> shortcode can take full advantage of the dependent library <a href="https://github.com/sachinchoolur/lightgallery.js" target="_blank" rel="noopener noreferrer">lightgallery.js</a>.</p>
+<p><a href="https://github.com/HEIGE-PCloud/DoIt/releases/tag/v0.2.10" rel="noopener noreferrer" target="_blank"><img
+        class="version"
+        loading="lazy"
+        src="/svg/version/0.2.10-new.min.svg"
+        srcset="/svg/version/0.2.10-new.min.svg, /svg/version/0.2.10-new.min.svg 1.5x, /svg/version/0.2.10-new.min.svg 2x"
+        sizes="auto"
+        alt="DoIt NEW | 0.2.10"
+        title="DoIt NEW | 0.2.10" ></a> The complete usage of <a href="../theme-documentation-content#contents-organization" rel="">local resource references</a> is supported.</p>
+<p>The <code>image</code> shortcode has the following named parameters:</p>
+<ul>
+<li>
+<p><strong>src</strong> <em>[required]</em> (<strong>first</strong> positional parameter)</p>
+<p>URL of the image to be displayed.</p>
+</li>
+<li>
+<p><strong>alt</strong> <em>[optional]</em> (<strong>second</strong> positional parameter)</p>
+<p>Alternate text for the image if the image cannot be displayed, the default value is the value of the <strong>src</strong> parameter.</p>
+<p><em>Markdown or HTML format is supported.</em></p>
+</li>
+<li>
+<p><strong>caption</strong> <em>[optional]</em> (<strong>third</strong> positional parameter)</p>
+<p>Image caption.</p>
+<p><em>Markdown or HTML format is supported.</em></p>
+</li>
+<li>
+<p><strong>title</strong> <em>[optional]</em></p>
+<p>Image title that will be shown when hovering on the image.</p>
+</li>
+<li>
+<p><strong>class</strong> <em>[optional]</em></p>
+<p><code>class</code> attribute of the HTML <code>figure</code> tag.</p>
+</li>
+<li>
+<p><strong>src_s</strong> <em>[optional]</em></p>
+<p>URL of the image thumbnail, used for lightgallery, the default value is the value of the <strong>src</strong> parameter.</p>
+</li>
+<li>
+<p><strong>src_l</strong> <em>[optional]</em></p>
+<p>URL of the HD image, used for lightgallery, the default value is the value of the <strong>src</strong> parameter.</p>
+</li>
+<li>
+<p><strong>height</strong> <em>[optional]</em></p>
+<p><code>height</code> attribute of the image.</p>
+</li>
+<li>
+<p><strong>width</strong> <em>[optional]</em></p>
+<p><code>width</code> attribute of the image.</p>
+</li>
+<li>
+<p><strong>linked</strong> <em>[optional]</em></p>
+<p>Whether the image needs to be hyperlinked, the default value is <code>true</code>.</p>
+</li>
+<li>
+<p><strong>rel</strong> <em>[optional]</em></p>
+<p>Additional <code>rel</code> attributes of the HTML <code>a</code> tag, if <strong>linked</strong> parameter is set to <code>true</code>.</p>
+</li>
+</ul>
+<p>Example <code>image</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">image</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/images/lighthouse.webp&#34;</span> <span style="color:#a6e22e">caption</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Lighthouse (`image`)&#34;</span> <span style="color:#a6e22e">src_s</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/images/lighthouse-small.webp&#34;</span> <span style="color:#a6e22e">src_l</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/images/lighthouse-large.webp&#34;</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<figure><a class="lightgallery" href="/images/lighthouse-large.webp" title="/images/lighthouse.webp" data-thumbnail="/images/lighthouse-small.webp" data-sub-html="<h2>Lighthouse (image)</h2>">
+        <img
+            
+            loading="lazy"
+            src="/images/lighthouse.webp"
+            srcset="/images/lighthouse-small.webp, /images/lighthouse.webp 1.5x, /images/lighthouse-large.webp 2x"
+            sizes="auto"
+            alt="/images/lighthouse.webp">
+    </a><figcaption class="image-caption">Lighthouse (<code>image</code>)</figcaption>
+    </figure>
+<h2 id="admonition" class="headerLink">
+    <a href="#admonition" class="header-mark"></a>admonition</h2><p>The <code>admonition</code> shortcode supports <strong>12</strong> types of banners to help you put a notice on your page.</p>
+<p><em>Markdown or HTML format in the content is supported.</em></p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">A <strong>note</strong> banner</div>
+        </div>
+    </div>
+<div class="details admonition abstract open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-list-ul fa-fw"></i>Abstract<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">An <strong>abstract</strong> banner</div>
+        </div>
+    </div>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw"></i>Info<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">A <strong>info</strong> banner</div>
+        </div>
+    </div>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">A <strong>tip</strong> banner</div>
+        </div>
+    </div>
+<div class="details admonition success open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw"></i>Success<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">A <strong>success</strong> banner</div>
+        </div>
+    </div>
+<div class="details admonition question open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw"></i>Question<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">A <strong>question</strong> banner</div>
+        </div>
+    </div>
+<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Warning<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">A <strong>warning</strong> banner</div>
+        </div>
+    </div>
+<div class="details admonition failure open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-times-circle fa-fw"></i>Failure<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">A <strong>failure</strong> banner</div>
+        </div>
+    </div>
+<div class="details admonition danger open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-skull-crossbones fa-fw"></i>Danger<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">A <strong>danger</strong> banner</div>
+        </div>
+    </div>
+<div class="details admonition bug open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-bug fa-fw"></i>Bug<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">A <strong>bug</strong> banner</div>
+        </div>
+    </div>
+<div class="details admonition example open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-list-ol fa-fw"></i>Example<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">An <strong>example</strong> banner</div>
+        </div>
+    </div>
+<div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>Quote<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">A <strong>quote</strong> banner</div>
+        </div>
+    </div>
+<p>The <code>admonition</code> shortcode has the following named parameters:</p>
+<ul>
+<li>
+<p><strong>type</strong> <em>[optional]</em> (<strong>first</strong> positional parameter)</p>
+<p>Type of the <code>admonition</code> banner, the default value is <code>note</code>.</p>
+</li>
+<li>
+<p><strong>title</strong> <em>[optional]</em> (<strong>second</strong> positional parameter)</p>
+<p>Title of the <code>admonition</code> banner, the default value is the value of the <strong>type</strong> parameter.</p>
+</li>
+<li>
+<p><strong>open</strong> <em>[optional]</em> (<strong>third</strong> positional parameter) <a href="https://github.com/HEIGE-PCloud/DoIt/releases/tag/v0.2.0" rel="noopener noreferrer" target="_blank"><img
+        class="version"
+        loading="lazy"
+        src="/svg/version/0.2.0-changed.min.svg"
+        srcset="/svg/version/0.2.0-changed.min.svg, /svg/version/0.2.0-changed.min.svg 1.5x, /svg/version/0.2.0-changed.min.svg 2x"
+        sizes="auto"
+        alt="DoIt CHANGED | 0.2.0"
+        title="DoIt CHANGED | 0.2.0" ></a></p>
+<p>Whether the content will be expandable by default, the default value is <code>true</code>.</p>
+</li>
+</ul>
+<p>Example <code>admonition</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">admonition</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">tip</span> <span style="color:#a6e22e">title</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;This is a tip&#34;</span> <span style="color:#a6e22e">open</span><span style="color:#f92672">=</span><span style="color:#e6db74">false</span> &gt;}}
+</span></span><span style="display:flex;"><span>A <span style="font-weight:bold">**tip**</span> banner
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">admonition</span> &gt;}}
+</span></span><span style="display:flex;"><span>Or
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">admonition</span> <span style="color:#a6e22e">tip</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">This</span> <span style="color:#a6e22e">is</span> <span style="color:#a6e22e">a</span> <span style="color:#a6e22e">tip</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#a6e22e">false</span> &gt;}}
+</span></span><span style="display:flex;"><span>A <span style="font-weight:bold">**tip**</span> banner
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">admonition</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<div class="details admonition tip">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>This is a tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">A <strong>tip</strong> banner</div>
+        </div>
+    </div>
+<h2 id="mermaid" class="headerLink">
+    <a href="#mermaid" class="header-mark"></a>mermaid</h2><p><a href="https://mermaidjs.github.io/" target="_blank" rel="noopener noreferrer">mermaid</a> is a library helping you to generate diagrams and flowcharts from text, in a similar manner as Markdown.</p>
+<p>Just insert your mermaid code in the <code>mermaid</code> shortcode and that’s it.</p>
+<h3 id="flowchart" class="headerLink">
+    <a href="#flowchart" class="header-mark"></a>Flowchart</h3><p>Example <strong>flowchart</strong> <code>mermaid</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">mermaid</span> &gt;}}graph LR;
+</span></span><span style="display:flex;"><span>    A[Hard edge] --&gt;|Link text| B(Round edge)
+</span></span><span style="display:flex;"><span>    B --&gt; C{Decision}
+</span></span><span style="display:flex;"><span>    C --&gt;|One| D[Result one]
+</span></span><span style="display:flex;"><span>    C --&gt;|Two| E[Result two]
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">mermaid</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<pre class="mermaid">graph LR;
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+
+</pre>
+<h3 id="sequence-diagram" class="headerLink">
+    <a href="#sequence-diagram" class="header-mark"></a>Sequence Diagram</h3><p>Example <strong>sequence diagram</strong> <code>mermaid</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">mermaid</span> &gt;}}sequenceDiagram
+</span></span><span style="display:flex;"><span>    participant Alice
+</span></span><span style="display:flex;"><span>    participant Bob
+</span></span><span style="display:flex;"><span>    Alice-&gt;&gt;John: Hello John, how are you?
+</span></span><span style="display:flex;"><span>    loop Healthcheck
+</span></span><span style="display:flex;"><span>        John-&gt;John: Fight against hypochondria
+</span></span><span style="display:flex;"><span>    end
+</span></span><span style="display:flex;"><span>    Note right of John: Rational thoughts &lt;<span style="color:#f92672">br</span>/&gt;prevail...
+</span></span><span style="display:flex;"><span>    John--&gt;Alice: Great!
+</span></span><span style="display:flex;"><span>    John-&gt;Bob: How about you?
+</span></span><span style="display:flex;"><span>    Bob--&gt;John: Jolly good!
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">mermaid</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<pre class="mermaid">sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail...
+    John-->Alice: Great!
+    John->Bob: How about you?
+    Bob-->John: Jolly good!
+
+</pre>
+<h3 id="gantt" class="headerLink">
+    <a href="#gantt" class="header-mark"></a>GANTT</h3><p>Example <strong>GANTT</strong> <code>mermaid</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">mermaid</span> &gt;}}gantt
+</span></span><span style="display:flex;"><span>    dateFormat  YYYY-MM-DD
+</span></span><span style="display:flex;"><span>    title Adding GANTT diagram functionality to mermaid
+</span></span><span style="display:flex;"><span>    section A section
+</span></span><span style="display:flex;"><span>    Completed task            :done,    des1, 2014-01-06,2014-01-08
+</span></span><span style="display:flex;"><span>    Active task               :active,  des2, 2014-01-09, 3d
+</span></span><span style="display:flex;"><span>    Future task               :         des3, after des2, 5d
+</span></span><span style="display:flex;"><span>    Future task2               :         des4, after des3, 5d
+</span></span><span style="display:flex;"><span>    section Critical tasks
+</span></span><span style="display:flex;"><span>    Completed task in the critical line :crit, done, 2014-01-06,24h
+</span></span><span style="display:flex;"><span>    Implement parser and jison          :crit, done, after des1, 2d
+</span></span><span style="display:flex;"><span>    Create tests for parser             :crit, active, 3d
+</span></span><span style="display:flex;"><span>    Future task in critical line        :crit, 5d
+</span></span><span style="display:flex;"><span>    Create tests for renderer           :2d
+</span></span><span style="display:flex;"><span>    Add to mermaid                      :1d
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">mermaid</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<pre class="mermaid">gantt
+    dateFormat  YYYY-MM-DD
+    title Adding GANTT diagram functionality to mermaid
+    section A section
+    Completed task            :done,    des1, 2014-01-06,2014-01-08
+    Active task               :active,  des2, 2014-01-09, 3d
+    Future task               :         des3, after des2, 5d
+    Future task2               :         des4, after des3, 5d
+    section Critical tasks
+    Completed task in the critical line :crit, done, 2014-01-06,24h
+    Implement parser and jison          :crit, done, after des1, 2d
+    Create tests for parser             :crit, active, 3d
+    Future task in critical line        :crit, 5d
+    Create tests for renderer           :2d
+    Add to mermaid                      :1d
+
+</pre>
+<h3 id="class-diagram" class="headerLink">
+    <a href="#class-diagram" class="header-mark"></a>Class Diagram</h3><p>Example <strong>class diagram</strong> <code>mermaid</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">mermaid</span> &gt;}}classDiagram
+</span></span><span style="display:flex;"><span>    Class01 <span style="color:#960050;background-color:#1e0010">&lt;</span>|-- AveryLongClass : Cool
+</span></span><span style="display:flex;"><span>    Class03 *-- Class04
+</span></span><span style="display:flex;"><span>    Class05 o-- Class06
+</span></span><span style="display:flex;"><span>    Class07 .. Class08
+</span></span><span style="display:flex;"><span>    Class09 --&gt; C2 : Where am i?
+</span></span><span style="display:flex;"><span>    Class09 --* C3
+</span></span><span style="display:flex;"><span>    Class09 --|&gt; Class07
+</span></span><span style="display:flex;"><span>    Class07 : equals()
+</span></span><span style="display:flex;"><span>    Class07 : Object[] elementData
+</span></span><span style="display:flex;"><span>    Class01 : size()
+</span></span><span style="display:flex;"><span>    Class01 : int chimp
+</span></span><span style="display:flex;"><span>    Class01 : int gorilla
+</span></span><span style="display:flex;"><span>    Class08 &lt;<span style="color:#f92672">--</span>&gt; C2: Cool label
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">mermaid</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<pre class="mermaid">classDiagram
+    Class01 <|-- AveryLongClass : Cool
+    Class03 *-- Class04
+    Class05 o-- Class06
+    Class07 .. Class08
+    Class09 --> C2 : Where am i?
+    Class09 --* C3
+    Class09 --|> Class07
+    Class07 : equals()
+    Class07 : Object[] elementData
+    Class01 : size()
+    Class01 : int chimp
+    Class01 : int gorilla
+    Class08 <--> C2: Cool label
+
+</pre>
+<h3 id="state-diagram" class="headerLink">
+    <a href="#state-diagram" class="header-mark"></a>State Diagram</h3><p>Example <strong>state diagram</strong> <code>mermaid</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">mermaid</span> &gt;}}stateDiagram
+</span></span><span style="display:flex;"><span>    [*] --&gt; Still
+</span></span><span style="display:flex;"><span>    Still --&gt; [*]
+</span></span><span style="display:flex;"><span>    Still --&gt; Moving
+</span></span><span style="display:flex;"><span>    Moving --&gt; Still
+</span></span><span style="display:flex;"><span>    Moving --&gt; Crash
+</span></span><span style="display:flex;"><span>    Crash --&gt; [*]
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">mermaid</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<pre class="mermaid">stateDiagram
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+
+</pre>
+<h3 id="git-graph" class="headerLink">
+    <a href="#git-graph" class="header-mark"></a>Git Graph</h3><p>Example <strong>git graph</strong> <code>mermaid</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">mermaid</span> &gt;}}gitGraph
+</span></span><span style="display:flex;"><span>    commit
+</span></span><span style="display:flex;"><span>    branch hotfix
+</span></span><span style="display:flex;"><span>    checkout hotfix
+</span></span><span style="display:flex;"><span>    commit
+</span></span><span style="display:flex;"><span>    branch develop
+</span></span><span style="display:flex;"><span>    checkout develop
+</span></span><span style="display:flex;"><span>    commit id:&#34;ash&#34; tag:&#34;abc&#34;
+</span></span><span style="display:flex;"><span>    branch featureB
+</span></span><span style="display:flex;"><span>    checkout featureB
+</span></span><span style="display:flex;"><span>    commit type:HIGHLIGHT
+</span></span><span style="display:flex;"><span>    checkout main
+</span></span><span style="display:flex;"><span>    checkout hotfix
+</span></span><span style="display:flex;"><span>    commit type:NORMAL
+</span></span><span style="display:flex;"><span>    checkout develop
+</span></span><span style="display:flex;"><span>    commit type:REVERSE
+</span></span><span style="display:flex;"><span>    checkout featureB
+</span></span><span style="display:flex;"><span>    commit
+</span></span><span style="display:flex;"><span>    checkout main
+</span></span><span style="display:flex;"><span>    merge hotfix
+</span></span><span style="display:flex;"><span>    checkout featureB
+</span></span><span style="display:flex;"><span>    commit
+</span></span><span style="display:flex;"><span>    checkout develop
+</span></span><span style="display:flex;"><span>    branch featureA
+</span></span><span style="display:flex;"><span>    commit
+</span></span><span style="display:flex;"><span>    checkout develop
+</span></span><span style="display:flex;"><span>    merge hotfix
+</span></span><span style="display:flex;"><span>    checkout featureA
+</span></span><span style="display:flex;"><span>    commit
+</span></span><span style="display:flex;"><span>    checkout featureB
+</span></span><span style="display:flex;"><span>    commit
+</span></span><span style="display:flex;"><span>    checkout develop
+</span></span><span style="display:flex;"><span>    merge featureA
+</span></span><span style="display:flex;"><span>    branch release
+</span></span><span style="display:flex;"><span>    checkout release
+</span></span><span style="display:flex;"><span>    commit
+</span></span><span style="display:flex;"><span>    checkout main
+</span></span><span style="display:flex;"><span>    commit
+</span></span><span style="display:flex;"><span>    checkout release
+</span></span><span style="display:flex;"><span>    merge main
+</span></span><span style="display:flex;"><span>    checkout develop
+</span></span><span style="display:flex;"><span>    merge release
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">mermaid</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<pre class="mermaid">
+gitGraph
+    commit
+    branch hotfix
+    checkout hotfix
+    commit
+    branch develop
+    checkout develop
+    commit id:"ash" tag:"abc"
+    branch featureB
+    checkout featureB
+    commit type:HIGHLIGHT
+    checkout main
+    checkout hotfix
+    commit type:NORMAL
+    checkout develop
+    commit type:REVERSE
+    checkout featureB
+    commit
+    checkout main
+    merge hotfix
+    checkout featureB
+    commit
+    checkout develop
+    branch featureA
+    commit
+    checkout develop
+    merge hotfix
+    checkout featureA
+    commit
+    checkout featureB
+    commit
+    checkout develop
+    merge featureA
+    branch release
+    checkout release
+    commit
+    checkout main
+    commit
+    checkout release
+    merge main
+    checkout develop
+    merge release
+
+</pre>
+<h3 id="pie" class="headerLink">
+    <a href="#pie" class="header-mark"></a>Pie</h3><p>Example <strong>pie</strong> <code>mermaid</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">mermaid</span> &gt;}}pie
+</span></span><span style="display:flex;"><span>    &#34;Dogs&#34; : 386
+</span></span><span style="display:flex;"><span>    &#34;Cats&#34; : 85
+</span></span><span style="display:flex;"><span>    &#34;Rats&#34; : 15
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">mermaid</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<pre class="mermaid">pie
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
+
+</pre>
+<h2 id="echarts" class="headerLink">
+    <a href="#echarts" class="header-mark"></a>echarts</h2><p><a href="https://echarts.apache.org/" target="_blank" rel="noopener noreferrer">ECharts</a> is a library helping you to generate interactive data visualization.</p>
+<p>The basic chart types ECharts supports include <a href="https://echarts.apache.org/en/option.html#series-line" target="_blank" rel="noopener noreferrer">line series</a>, <a href="https://echarts.apache.org/en/option.html#series-line" target="_blank" rel="noopener noreferrer">bar series</a>, <a href="https://echarts.apache.org/en/option.html#series-scatter" target="_blank" rel="noopener noreferrer">scatter series</a>, <a href="https://echarts.apache.org/en/option.html#series-pie" target="_blank" rel="noopener noreferrer">pie charts</a>, <a href="https://echarts.apache.org/en/option.html#series-candlestick" target="_blank" rel="noopener noreferrer">candle-stick series</a>, <a href="https://echarts.apache.org/en/option.html#series-boxplot" target="_blank" rel="noopener noreferrer">boxplot series</a> for statistics, <a href="https://echarts.apache.org/en/option.html#series-map" target="_blank" rel="noopener noreferrer">map series</a>, <a href="https://echarts.apache.org/en/option.html#series-heatmap" target="_blank" rel="noopener noreferrer">heatmap series</a>, <a href="https://echarts.apache.org/en/option.html#series-lines" target="_blank" rel="noopener noreferrer">lines series</a> for directional information, <a href="https://echarts.apache.org/en/option.html#series-graph" target="_blank" rel="noopener noreferrer">graph series</a> for relationships, <a href="https://echarts.apache.org/en/option.html#series-treemap" target="_blank" rel="noopener noreferrer">treemap series</a>, <a href="https://echarts.apache.org/en/option.html#series-sunburst" target="_blank" rel="noopener noreferrer">sunburst series</a>, <a href="https://echarts.apache.org/en/option.html#series-parallel" target="_blank" rel="noopener noreferrer">parallel series</a> for multi-dimensional data, <a href="https://echarts.apache.org/en/option.html#series-funnel" target="_blank" rel="noopener noreferrer">funnel series</a>, <a href="https://echarts.apache.org/en/option.html#series-gauge" target="_blank" rel="noopener noreferrer">gauge series</a>. And it&rsquo;s extremely easy to create a combinition of them with ECharts.</p>
+<p>Just insert your ECharts option in <code>JSON</code>/<code>YAML</code>/<code>TOML</code> format in the <code>echarts</code> shortcode and that’s it.</p>
+<p>Example <code>echarts</code> input in <code>JSON</code> format:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{<span style="color:#960050;background-color:#1e0010">{&lt;</span> <span style="color:#960050;background-color:#1e0010">echarts</span> <span style="color:#960050;background-color:#1e0010">&gt;</span>}<span style="color:#960050;background-color:#1e0010">}</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;title&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;text&#34;</span>: <span style="color:#e6db74">&#34;Summary Line Chart&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;top&#34;</span>: <span style="color:#e6db74">&#34;2%&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;left&#34;</span>: <span style="color:#e6db74">&#34;center&#34;</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;tooltip&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;trigger&#34;</span>: <span style="color:#e6db74">&#34;axis&#34;</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;legend&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;data&#34;</span>: [<span style="color:#e6db74">&#34;Email Marketing&#34;</span>, <span style="color:#e6db74">&#34;Affiliate Advertising&#34;</span>, <span style="color:#e6db74">&#34;Video Advertising&#34;</span>, <span style="color:#e6db74">&#34;Direct View&#34;</span>, <span style="color:#e6db74">&#34;Search Engine&#34;</span>],
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;top&#34;</span>: <span style="color:#e6db74">&#34;10%&#34;</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;grid&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;left&#34;</span>: <span style="color:#e6db74">&#34;5%&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;right&#34;</span>: <span style="color:#e6db74">&#34;5%&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;bottom&#34;</span>: <span style="color:#e6db74">&#34;5%&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;top&#34;</span>: <span style="color:#e6db74">&#34;20%&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;containLabel&#34;</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;toolbox&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;feature&#34;</span>: {
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;saveAsImage&#34;</span>: {
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;title&#34;</span>: <span style="color:#e6db74">&#34;Save as Image&#34;</span>
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;xAxis&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;category&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;boundaryGap&#34;</span>: <span style="color:#66d9ef">false</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;data&#34;</span>: [<span style="color:#e6db74">&#34;Monday&#34;</span>, <span style="color:#e6db74">&#34;Tuesday&#34;</span>, <span style="color:#e6db74">&#34;Wednesday&#34;</span>, <span style="color:#e6db74">&#34;Thursday&#34;</span>, <span style="color:#e6db74">&#34;Friday&#34;</span>, <span style="color:#e6db74">&#34;Saturday&#34;</span>, <span style="color:#e6db74">&#34;Sunday&#34;</span>]
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;yAxis&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;value&#34;</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;series&#34;</span>: [
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Email Marketing&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;line&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;stack&#34;</span>: <span style="color:#e6db74">&#34;Total&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;data&#34;</span>: [<span style="color:#ae81ff">120</span>, <span style="color:#ae81ff">132</span>, <span style="color:#ae81ff">101</span>, <span style="color:#ae81ff">134</span>, <span style="color:#ae81ff">90</span>, <span style="color:#ae81ff">230</span>, <span style="color:#ae81ff">210</span>]
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Affiliate Advertising&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;line&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;stack&#34;</span>: <span style="color:#e6db74">&#34;Total&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;data&#34;</span>: [<span style="color:#ae81ff">220</span>, <span style="color:#ae81ff">182</span>, <span style="color:#ae81ff">191</span>, <span style="color:#ae81ff">234</span>, <span style="color:#ae81ff">290</span>, <span style="color:#ae81ff">330</span>, <span style="color:#ae81ff">310</span>]
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Video Advertising&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;line&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;stack&#34;</span>: <span style="color:#e6db74">&#34;Total&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;data&#34;</span>: [<span style="color:#ae81ff">150</span>, <span style="color:#ae81ff">232</span>, <span style="color:#ae81ff">201</span>, <span style="color:#ae81ff">154</span>, <span style="color:#ae81ff">190</span>, <span style="color:#ae81ff">330</span>, <span style="color:#ae81ff">410</span>]
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Direct View&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;line&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;stack&#34;</span>: <span style="color:#e6db74">&#34;Total&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;data&#34;</span>: [<span style="color:#ae81ff">320</span>, <span style="color:#ae81ff">332</span>, <span style="color:#ae81ff">301</span>, <span style="color:#ae81ff">334</span>, <span style="color:#ae81ff">390</span>, <span style="color:#ae81ff">330</span>, <span style="color:#ae81ff">320</span>]
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Search Engine&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;line&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;stack&#34;</span>: <span style="color:#e6db74">&#34;Total&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;data&#34;</span>: [<span style="color:#ae81ff">820</span>, <span style="color:#ae81ff">932</span>, <span style="color:#ae81ff">901</span>, <span style="color:#ae81ff">934</span>, <span style="color:#ae81ff">1290</span>, <span style="color:#ae81ff">1330</span>, <span style="color:#ae81ff">1320</span>]
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  ]
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>{<span style="color:#960050;background-color:#1e0010">{&lt;</span> <span style="color:#960050;background-color:#1e0010">/echarts</span> <span style="color:#960050;background-color:#1e0010">&gt;</span>}<span style="color:#960050;background-color:#1e0010">}</span>
+</span></span></code></pre></div><p>The same in <code>YAML</code> format:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>{{<span style="color:#ae81ff">&lt; echarts &gt;}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">title</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">text</span>: <span style="color:#ae81ff">Summary Line Chart</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">top</span>: <span style="color:#ae81ff">2</span><span style="color:#ae81ff">%</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">left</span>: <span style="color:#ae81ff">center</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">tooltip</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">trigger</span>: <span style="color:#ae81ff">axis</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">legend</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">data</span>:
+</span></span><span style="display:flex;"><span>        - <span style="color:#ae81ff">Email Marketing</span>
+</span></span><span style="display:flex;"><span>        - <span style="color:#ae81ff">Affiliate Advertising</span>
+</span></span><span style="display:flex;"><span>        - <span style="color:#ae81ff">Video Advertising</span>
+</span></span><span style="display:flex;"><span>        - <span style="color:#ae81ff">Direct View</span>
+</span></span><span style="display:flex;"><span>        - <span style="color:#ae81ff">Search Engine</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">top</span>: <span style="color:#ae81ff">10</span><span style="color:#ae81ff">%</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">grid</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">left</span>: <span style="color:#ae81ff">5</span><span style="color:#ae81ff">%</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">right</span>: <span style="color:#ae81ff">5</span><span style="color:#ae81ff">%</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">bottom</span>: <span style="color:#ae81ff">5</span><span style="color:#ae81ff">%</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">top</span>: <span style="color:#ae81ff">20</span><span style="color:#ae81ff">%</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">containLabel</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">toolbox</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">feature</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">saveAsImage</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">title</span>: <span style="color:#ae81ff">Save as Image</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">xAxis</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">type</span>: <span style="color:#ae81ff">category</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">boundaryGap</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">data</span>:
+</span></span><span style="display:flex;"><span>        - <span style="color:#ae81ff">Monday</span>
+</span></span><span style="display:flex;"><span>        - <span style="color:#ae81ff">Tuesday</span>
+</span></span><span style="display:flex;"><span>        - <span style="color:#ae81ff">Wednesday</span>
+</span></span><span style="display:flex;"><span>        - <span style="color:#ae81ff">Thursday</span>
+</span></span><span style="display:flex;"><span>        - <span style="color:#ae81ff">Friday</span>
+</span></span><span style="display:flex;"><span>        - <span style="color:#ae81ff">Saturday</span>
+</span></span><span style="display:flex;"><span>        - <span style="color:#ae81ff">Sunday</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">yAxis</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">type</span>: <span style="color:#ae81ff">value</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">series</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Email Marketing</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">type</span>: <span style="color:#ae81ff">line</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">stack</span>: <span style="color:#ae81ff">Total</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">data</span>:
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">120</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">132</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">101</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">134</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">90</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">230</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">210</span>
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Affiliate Advertising</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">type</span>: <span style="color:#ae81ff">line</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">stack</span>: <span style="color:#ae81ff">Total</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">data</span>:
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">220</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">182</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">191</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">234</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">290</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">330</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">310</span>
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Video Advertising</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">type</span>: <span style="color:#ae81ff">line</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">stack</span>: <span style="color:#ae81ff">Total</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">data</span>:
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">150</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">232</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">201</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">154</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">190</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">330</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">410</span>
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Direct View</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">type</span>: <span style="color:#ae81ff">line</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">stack</span>: <span style="color:#ae81ff">Total</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">data</span>:
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">320</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">332</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">301</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">334</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">390</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">330</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">320</span>
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Search Engine</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">type</span>: <span style="color:#ae81ff">line</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">stack</span>: <span style="color:#ae81ff">Total</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">data</span>:
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">820</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">932</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">901</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">934</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">1290</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">1330</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">1320</span>
+</span></span><span style="display:flex;"><span>{{<span style="color:#ae81ff">&lt; /echarts &gt;}}</span>
+</span></span></code></pre></div><p>The same in <code>TOML</code> format:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>{{<span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">echarts</span> <span style="color:#960050;background-color:#1e0010">&gt;</span>}}
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">title</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">text</span> = <span style="color:#e6db74">&#34;Summary Line Chart&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">top</span> = <span style="color:#e6db74">&#34;2%&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">left</span> = <span style="color:#e6db74">&#34;center&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">tooltip</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">trigger</span> = <span style="color:#e6db74">&#34;axis&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">legend</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">data</span> = [
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;Email Marketing&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;Affiliate Advertising&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;Video Advertising&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;Direct View&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;Search Engine&#34;</span>
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">top</span> = <span style="color:#e6db74">&#34;10%&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">grid</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">left</span> = <span style="color:#e6db74">&#34;5%&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">right</span> = <span style="color:#e6db74">&#34;5%&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">bottom</span> = <span style="color:#e6db74">&#34;5%&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">top</span> = <span style="color:#e6db74">&#34;20%&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">containLabel</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">toolbox</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">toolbox</span>.<span style="color:#a6e22e">feature</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">toolbox</span>.<span style="color:#a6e22e">feature</span>.<span style="color:#a6e22e">saveAsImage</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;Save as Image&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">xAxis</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">type</span> = <span style="color:#e6db74">&#34;category&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">boundaryGap</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">data</span> = [
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;Monday&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;Tuesday&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;Wednesday&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;Thursday&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;Friday&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;Saturday&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;Sunday&#34;</span>
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">yAxis</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">type</span> = <span style="color:#e6db74">&#34;value&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[[<span style="color:#a6e22e">series</span>]]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;Email Marketing&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">type</span> = <span style="color:#e6db74">&#34;line&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">stack</span> = <span style="color:#e6db74">&#34;Total&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">data</span> = [
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">120.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">132.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">101.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">134.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">90.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">230.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">210.0</span>
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[[<span style="color:#a6e22e">series</span>]]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;Affiliate Advertising&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">type</span> = <span style="color:#e6db74">&#34;line&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">stack</span> = <span style="color:#e6db74">&#34;Total&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">data</span> = [
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">220.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">182.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">191.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">234.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">290.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">330.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">310.0</span>
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[[<span style="color:#a6e22e">series</span>]]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;Video Advertising&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">type</span> = <span style="color:#e6db74">&#34;line&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">stack</span> = <span style="color:#e6db74">&#34;Total&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">data</span> = [
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">150.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">232.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">201.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">154.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">190.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">330.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">410.0</span>
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[[<span style="color:#a6e22e">series</span>]]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;Direct View&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">type</span> = <span style="color:#e6db74">&#34;line&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">stack</span> = <span style="color:#e6db74">&#34;Total&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">data</span> = [
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">320.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">332.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">301.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">334.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">390.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">330.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">320.0</span>
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[[<span style="color:#a6e22e">series</span>]]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;Search Engine&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">type</span> = <span style="color:#e6db74">&#34;line&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">stack</span> = <span style="color:#e6db74">&#34;Total&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">data</span> = [
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">820.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">932.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">901.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">934.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">1290.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">1330.0</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">1320.0</span>
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>{{<span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">echarts</span> <span style="color:#960050;background-color:#1e0010">&gt;</span>}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<div class="echarts" id="id-2" style="width: 100%; height: 30rem;"></div>
+<p>The <code>echarts</code> shortcode has also the following named parameters:</p>
+<ul>
+<li>
+<p><strong>width</strong> <em>[optional]</em> (<strong>first</strong> positional parameter)</p>
+<p><a href="https://github.com/HEIGE-PCloud/DoIt/releases/tag/v0.2.0" rel="noopener noreferrer" target="_blank"><img
+            class="version"
+            loading="lazy"
+            src="/svg/version/0.2.0-new.min.svg"
+            srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
+            sizes="auto"
+            alt="DoIt NEW | 0.2.0"
+            title="DoIt NEW | 0.2.0" ></a> Width of the data visualization, default value is <code>100%</code>.</p>
+</li>
+<li>
+<p><strong>height</strong> <em>[optional]</em> (<strong>second</strong> positional parameter)</p>
+<p><a href="https://github.com/HEIGE-PCloud/DoIt/releases/tag/v0.2.0" rel="noopener noreferrer" target="_blank"><img
+            class="version"
+            loading="lazy"
+            src="/svg/version/0.2.0-new.min.svg"
+            srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
+            sizes="auto"
+            alt="DoIt NEW | 0.2.0"
+            title="DoIt NEW | 0.2.0" ></a> Height of the data visualization, default value is <code>30rem</code>.</p>
+</li>
+</ul>
+<h2 id="mapbox" class="headerLink">
+    <a href="#mapbox" class="header-mark"></a>mapbox</h2><a href="https://github.com/HEIGE-PCloud/DoIt/releases/tag/v0.2.0" rel="noopener noreferrer" target="_blank"><img
+        class="version"
+        loading="lazy"
+        src="/svg/version/0.2.0-new.min.svg"
+        srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
+        sizes="auto"
+        alt="DoIt NEW | 0.2.0"
+        title="DoIt NEW | 0.2.0" ></a>
+<p><a href="https://docs.mapbox.com/mapbox-gl-js" target="_blank" rel="noopener noreferrer">Mapbox GL JS</a> is a JavaScript library that uses WebGL to render interactive maps from <a href="https://docs.mapbox.com/help/glossary/vector-tiles/" target="_blank" rel="noopener noreferrer">vector tiles</a> and <a href="https://docs.mapbox.com/mapbox-gl-js/style-spec/" target="_blank" rel="noopener noreferrer">Mapbox styles</a>.</p>
+<p>The <code>mapbox</code> shortcode has the following named parameters to use Mapbox GL JS:</p>
+<ul>
+<li>
+<p><strong>lng</strong> <em>[required]</em> (<strong>first</strong> positional parameter)</p>
+<p>Longitude of the initial centerpoint of the map, measured in degrees.</p>
+</li>
+<li>
+<p><strong>lat</strong> <em>[required]</em> (<strong>second</strong> positional parameter)</p>
+<p>Latitude of the initial centerpoint of the map, measured in degrees.</p>
+</li>
+<li>
+<p><strong>zoom</strong> <em>[optional]</em> (<strong>third</strong> positional parameter)</p>
+<p>The initial zoom level of the map, the default value is <code>10</code>.</p>
+</li>
+<li>
+<p><strong>marked</strong> <em>[optional]</em> (<strong>fourth</strong> positional parameter)</p>
+<p>Whether to add a marker at the initial centerpoint of the map, the default value is <code>true</code>.</p>
+</li>
+<li>
+<p><strong>light-style</strong> <em>[optional]</em> (<strong>fifth</strong> positional parameter)</p>
+<p>Style for the light theme, default value is the value set in the <a href="../theme-documentation-content#front-matter" rel="">front matter</a> or the <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>.</p>
+</li>
+<li>
+<p><strong>dark-style</strong> <em>[optional]</em> (<strong>sixth</strong> positional parameter)</p>
+<p>Style for the dark theme, default value is the value set in the <a href="../theme-documentation-content#front-matter" rel="">front matter</a> or the <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>.</p>
+</li>
+<li>
+<p><strong>navigation</strong> <em>[optional]</em></p>
+<p>Whether to add <a href="https://docs.mapbox.com/mapbox-gl-js/api#navigationcontrol" target="_blank" rel="noopener noreferrer">NavigationControl</a>, default value is the value set in the <a href="../theme-documentation-content#front-matter" rel="">front matter</a> or the <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>.</p>
+</li>
+<li>
+<p><strong>geolocate</strong> <em>[optional]</em></p>
+<p>Whether to add <a href="https://docs.mapbox.com/mapbox-gl-js/api#geolocatecontrol" target="_blank" rel="noopener noreferrer">GeolocateControl</a>, default value is the value set in the <a href="../theme-documentation-content#front-matter" rel="">front matter</a> or the <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>.</p>
+</li>
+<li>
+<p><strong>scale</strong> <em>[optional]</em></p>
+<p>Whether to add <a href="https://docs.mapbox.com/mapbox-gl-js/api#scalecontrol" target="_blank" rel="noopener noreferrer">ScaleControl</a>, default value is the value set in the <a href="../theme-documentation-content#front-matter" rel="">front matter</a> or the <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>.</p>
+</li>
+<li>
+<p><strong>fullscreen</strong> <em>[optional]</em></p>
+<p>Whether to add <a href="https://docs.mapbox.com/mapbox-gl-js/api#fullscreencontrol" target="_blank" rel="noopener noreferrer">FullscreenControl</a>, default value is the value set in the <a href="../theme-documentation-content#front-matter" rel="">front matter</a> or the <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>.</p>
+</li>
+<li>
+<p><strong>width</strong> <em>[optional]</em></p>
+<p>Width of the map, the default value is <code>100%</code>.</p>
+</li>
+<li>
+<p><strong>height</strong> <em>[optional]</em></p>
+<p>Height of the map, the default value is <code>20rem</code>.</p>
+</li>
+</ul>
+<p>Example simple <code>mapbox</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">mapbox</span> <span style="color:#a6e22e">121</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">485</span> <span style="color:#a6e22e">31</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">233</span> <span style="color:#a6e22e">12</span> &gt;}}
+</span></span><span style="display:flex;"><span>Or
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">mapbox</span> <span style="color:#a6e22e">lng</span><span style="color:#f92672">=</span><span style="color:#e6db74">121.485</span> <span style="color:#a6e22e">lat</span><span style="color:#f92672">=</span><span style="color:#e6db74">31.233</span> <span style="color:#a6e22e">zoom</span><span style="color:#f92672">=</span><span style="color:#e6db74">12</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<div class="mapbox" id="id-3" style="width: 100%; height: 20rem;"></div>
+<p>Example <code>mapbox</code> input with the custom style:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">mapbox</span> <span style="color:#a6e22e">-122</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">252</span> <span style="color:#a6e22e">37</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">453</span> <span style="color:#a6e22e">10</span> <span style="color:#a6e22e">false</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">mapbox:</span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">styles</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">mapbox</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">navigation-preview-day-v4</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">mapbox:</span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">styles</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">mapbox</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">navigation-preview-night-v4</span><span style="color:#960050;background-color:#1e0010">&#34;</span> &gt;}}
+</span></span><span style="display:flex;"><span>Or
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">mapbox</span> <span style="color:#a6e22e">lng</span><span style="color:#f92672">=</span><span style="color:#e6db74">-122.252</span> <span style="color:#a6e22e">lat</span><span style="color:#f92672">=</span><span style="color:#e6db74">37.453</span> <span style="color:#a6e22e">zoom</span><span style="color:#f92672">=</span><span style="color:#e6db74">10</span> <span style="color:#a6e22e">marked</span><span style="color:#f92672">=</span><span style="color:#e6db74">false</span> <span style="color:#a6e22e">light-style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mapbox://styles/mapbox/navigation-preview-day-v4&#34;</span> <span style="color:#a6e22e">dark-style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mapbox://styles/mapbox/navigation-preview-night-v4&#34;</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<div class="mapbox" id="id-4" style="width: 100%; height: 20rem;"></div>
+<h2 id="music" class="headerLink">
+    <a href="#music" class="header-mark"></a>music</h2><p>The <code>music</code> shortcode embeds a responsive music player based on <a href="https://github.com/MoePlayer/APlayer" target="_blank" rel="noopener noreferrer">APlayer</a> and <a href="https://github.com/metowolf/MetingJS" target="_blank" rel="noopener noreferrer">MetingJS</a>.</p>
+<p>There are three ways to use the <code>music</code> shortcode.</p>
+<h3 id="custom-music-url" class="headerLink">
+    <a href="#custom-music-url" class="header-mark"></a>Custom Music URL</h3><p><a href="https://github.com/HEIGE-PCloud/DoIt/releases/tag/v0.2.10" rel="noopener noreferrer" target="_blank"><img
+        class="version"
+        loading="lazy"
+        src="/svg/version/0.2.10-new.min.svg"
+        srcset="/svg/version/0.2.10-new.min.svg, /svg/version/0.2.10-new.min.svg 1.5x, /svg/version/0.2.10-new.min.svg 2x"
+        sizes="auto"
+        alt="DoIt NEW | 0.2.10"
+        title="DoIt NEW | 0.2.10" ></a> The complete usage of <a href="../theme-documentation-content#contents-organization" rel="">local resource references</a> is supported.</p>
+<p>The <code>music</code> shortcode has the following named parameters by custom music URL:</p>
+<ul>
+<li>
+<p><strong>server</strong> <em>[required]</em></p>
+<p>URL of the custom music.</p>
+</li>
+<li>
+<p><strong>name</strong> <em>[optional]</em></p>
+<p>Name of the custom music.</p>
+</li>
+<li>
+<p><strong>artist</strong> <em>[optional]</em></p>
+<p>Artist of the custom music.</p>
+</li>
+<li>
+<p><strong>cover</strong> <em>[required]</em></p>
+<p>URL of the custom music cover.</p>
+</li>
+</ul>
+<p>Example <code>music</code> input by custom music URL:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">music</span> <span style="color:#a6e22e">url</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/music/Wavelength.mp3&#34;</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">Wavelength</span> <span style="color:#a6e22e">artist</span><span style="color:#f92672">=</span><span style="color:#e6db74">oldmanyoung</span> <span style="color:#a6e22e">cover</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/images/Wavelength.webp&#34;</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<meting-js url="/music/Wavelength.mp3" name="Wavelength" artist="oldmanyoung" cover="/images/Wavelength.webp" theme="#448aff"></meting-js>
+<h3 id="automatic-identification" class="headerLink">
+    <a href="#automatic-identification" class="header-mark"></a>Music Platform URL Automatic Identification</h3><p>The <code>music</code> shortcode has one named parameter by music platform URL automatic identification:</p>
+<ul>
+<li>
+<p><strong>auto</strong> <em>[required]</em> (<strong>first</strong> positional parameter)</p>
+<p>URL of the music platform URL for automatic identification,
+which supports <code>netease</code>, <code>tencent</code> and <code>xiami</code> music platforms.</p>
+</li>
+</ul>
+<p>Example <code>music</code> input by music platform URL automatic identification:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">music</span> <span style="color:#a6e22e">auto</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://music.163.com/#/playlist?id=60198&#34;</span> &gt;}}
+</span></span><span style="display:flex;"><span>Or
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">music</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">https:</span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">music</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">163</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">com</span><span style="color:#960050;background-color:#1e0010">/#/</span><span style="color:#a6e22e">playlist</span><span style="color:#960050;background-color:#1e0010">?</span><span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">60198&#34;</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<meting-js auto="https://music.163.com/#/playlist?id=60198" theme="#448aff"></meting-js>
+<h3 id="custom-server" class="headerLink">
+    <a href="#custom-server" class="header-mark"></a>Custom Server, Type and ID</h3><p>The <code>music</code> shortcode has the following named parameters by custom music platform:</p>
+<ul>
+<li>
+<p><strong>server</strong> <em>[required]</em> (<strong>first</strong> positional parameter)</p>
+<p>[<code>netease</code>, <code>tencent</code>, <code>kugou</code>, <code>xiami</code>, <code>baidu</code>]</p>
+<p>Music platform.</p>
+</li>
+<li>
+<p><strong>type</strong> <em>[required]</em> (<strong>second</strong> positional parameter)</p>
+<p>[<code>song</code>, <code>playlist</code>, <code>album</code>, <code>search</code>, <code>artist</code>]</p>
+<p>Type of the music.</p>
+</li>
+<li>
+<p><strong>id</strong> <em>[required]</em> (<strong>third</strong> positional parameter)</p>
+<p>Song ID, or playlist ID, or album ID, or search keyword, or artist ID.</p>
+</li>
+</ul>
+<p>Example <code>music</code> input by custom music platform:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">music</span> <span style="color:#a6e22e">server</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;netease&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;song&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;1868553&#34;</span> &gt;}}
+</span></span><span style="display:flex;"><span>Or
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">music</span> <span style="color:#a6e22e">netease</span> <span style="color:#a6e22e">song</span> <span style="color:#a6e22e">1868553</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<meting-js server="netease" type="song" id="1868553" theme="#448aff"></meting-js>
+<h3 id="other-parameters" class="headerLink">
+    <a href="#other-parameters" class="header-mark"></a>Other Parameters</h3><p>The <code>music</code> shortcode has other named parameters applying to the above three ways:</p>
+<ul>
+<li>
+<p><strong>theme</strong> <em>[optional]</em></p>
+<p><a href="https://github.com/HEIGE-PCloud/DoIt/releases/tag/v0.2.0" rel="noopener noreferrer" target="_blank"><img
+            class="version"
+            loading="lazy"
+            src="/svg/version/0.2.0-changed.min.svg"
+            srcset="/svg/version/0.2.0-changed.min.svg, /svg/version/0.2.0-changed.min.svg 1.5x, /svg/version/0.2.0-changed.min.svg 2x"
+            sizes="auto"
+            alt="DoIt CHANGED | 0.2.0"
+            title="DoIt CHANGED | 0.2.0" ></a> the Main colour of the music player, the default value is <code>#448aff</code>.</p>
+</li>
+<li>
+<p><strong>fixed</strong> <em>[optional]</em></p>
+<p>Whether to enable fixed mode, the default value is <code>false</code>.</p>
+</li>
+<li>
+<p><strong>mini</strong> <em>[optional]</em></p>
+<p>Whether to enable mini mode, the default value is <code>false</code>.</p>
+</li>
+<li>
+<p><strong>autoplay</strong> <em>[optional]</em></p>
+<p>Whether to autoplay music, the default value is <code>false</code>.</p>
+</li>
+<li>
+<p><strong>volume</strong> <em>[optional]</em></p>
+<p>Default volume when the player is first opened, which will be remembered in the browser, the default value is <code>0.7</code>.</p>
+</li>
+<li>
+<p><strong>mutex</strong> <em>[optional]</em></p>
+<p>Whether to pause other players when this player starts playing, the default value is <code>true</code>.</p>
+</li>
+</ul>
+<p>The <code>music</code> shortcode has the following named parameters only applying to the type of music list:</p>
+<ul>
+<li>
+<p><strong>loop</strong> <em>[optional]</em></p>
+<p>[<code>all</code>, <code>one</code>, <code>none</code>]</p>
+<p>Loop mode of the music list, the default value is <code>none</code>.</p>
+</li>
+<li>
+<p><strong>order</strong> <em>[optional]</em></p>
+<p>[<code>list</code>, <code>random</code>]</p>
+<p>Play order of the music list, the default value is <code>list</code>.</p>
+</li>
+<li>
+<p><strong>list-folded</strong> <em>[optional]</em></p>
+<p>Whether the music list should be folded at first, the default value is <code>false</code>.</p>
+</li>
+<li>
+<p><strong>list-max-height</strong> <em>[optional]</em></p>
+<p>Max height of the music list, the default value is <code>340px</code>.</p>
+</li>
+</ul>
+<h2 id="aplayer-and-audio" class="headerLink">
+    <a href="#aplayer-and-audio" class="header-mark"></a>aplayer and audio</h2><a href="https://github.com/HEIGE-PCloud/DoIt/releases/tag/v0.2.14" rel="noopener noreferrer" target="_blank"><img
+        class="version"
+        loading="lazy"
+        src="/svg/version/0.2.14-new.min.svg"
+        srcset="/svg/version/0.2.14-new.min.svg, /svg/version/0.2.14-new.min.svg 1.5x, /svg/version/0.2.14-new.min.svg 2x"
+        sizes="auto"
+        alt="DoIt NEW | 0.2.14"
+        title="DoIt NEW | 0.2.14" ></a>
+<p>If you need more advanced controls (custom playlist, mini mode, custom audio type&hellip;) over the music player, you can use the <code>aplayer</code> shortcode along with the <code>audio</code> shortcode to reach full power of <a href="https://aplayer.js.org" target="_blank" rel="noopener noreferrer">APlayer.js</a>.</p>
+<p>The <code>aplayer</code> shortcode is used to create an <code>APlayer</code> instance, and the <code>audio</code> shortcode is used to store data about each music file. Please refer to <a href="https://aplayer.js.org/#/home?id=options" target="_blank" rel="noopener noreferrer">APlayer.js documentation</a> for all options.</p>
+<p>Example <code>aplayer</code> and <code>audio</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">aplayer</span> <span style="color:#a6e22e">fixed</span><span style="color:#f92672">=</span><span style="color:#e6db74">false</span> <span style="color:#a6e22e">mini</span><span style="color:#f92672">=</span><span style="color:#e6db74">false</span> <span style="color:#a6e22e">autoplay</span><span style="color:#f92672">=</span><span style="color:#e6db74">false</span> <span style="color:#a6e22e">theme</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#b7daff&#34;</span> <span style="color:#a6e22e">loop</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;all&#34;</span> <span style="color:#a6e22e">order</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;list&#34;</span> <span style="color:#a6e22e">preload</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;auto&#34;</span> <span style="color:#a6e22e">volume</span><span style="color:#f92672">=</span><span style="color:#e6db74">0.7</span> <span style="color:#a6e22e">mutex</span><span style="color:#f92672">=</span><span style="color:#e6db74">true</span> <span style="color:#a6e22e">lrcType</span><span style="color:#f92672">=</span><span style="color:#e6db74">1</span> <span style="color:#a6e22e">listFolded</span><span style="color:#f92672">=</span><span style="color:#e6db74">false</span> <span style="color:#a6e22e">listMaxHeight</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span> <span style="color:#a6e22e">storageName</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;aplayer-setting&#34;</span> &gt;}}
+</span></span><span style="display:flex;"><span>    {{&lt; <span style="color:#f92672">audio</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Wavelength&#34;</span> <span style="color:#a6e22e">artist</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;oldmanyoung&#34;</span> <span style="color:#a6e22e">url</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/music/Wavelength.mp3&#34;</span> <span style="color:#a6e22e">cover</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/images/Wavelength.webp&#34;</span> /&gt;}}
+</span></span><span style="display:flex;"><span>    {{&lt; <span style="color:#f92672">audio</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Wavelength&#34;</span> <span style="color:#a6e22e">artist</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;oldmanyoung&#34;</span> <span style="color:#a6e22e">url</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/music/Wavelength.mp3&#34;</span> <span style="color:#a6e22e">cover</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/images/Wavelength.webp&#34;</span> &gt;}}
+</span></span><span style="display:flex;"><span>        [00:00.00]APlayer audio1
+</span></span><span style="display:flex;"><span>        [00:04.01]is
+</span></span><span style="display:flex;"><span>        [00:08.02]amazing
+</span></span><span style="display:flex;"><span>    {{&lt; /<span style="color:#f92672">audio</span> &gt;}}
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">aplayer</span> &gt;}}
+</span></span></code></pre></div><p>Example <code>aplayer</code> and <code>audio</code> output:</p>
+<div class="aplayer-shortcode"data-audio='[{"artist":"oldmanyoung","cover":"/images/Wavelength.webp","name":"Wavelength","url":"/music/Wavelength.mp3"},
+    {"artist":"oldmanyoung","cover":"/images/Wavelength.webp","lrc":"\r\n        [00:00.00]APlayer audio1\r\n        [00:04.01]is\r\n        [00:08.02]amazing\r\n    ","name":"Wavelength","url":"/music/Wavelength.mp3"}]'data-options='{"loop":"all","lrcType":1,"mutex":true,"order":"list","preload":"auto","storageName":"aplayer-setting","theme":"#b7daff","volume":0.7}'></div>
+<p>Note that these shortcodes cannot be used separately and only named parameters are supported.</p>
+<p>If you place the LRC inside the <code>audio</code> shortcode, it is passed to the APlayer as a JS string, so the <code>lrcType</code> needs to be set to 1. If you set the link to the LRC file through the <code>lrc</code> parameter, it will be passed as an LRC file, so the <code>lrcType</code> needs to be set to 3.</p>
+<h2 id="bilibili" class="headerLink">
+    <a href="#bilibili" class="header-mark"></a>bilibili</h2><a href="https://github.com/HEIGE-PCloud/DoIt/releases/tag/v0.2.0" rel="noopener noreferrer" target="_blank"><img
+        class="version"
+        loading="lazy"
+        src="/svg/version/0.2.0-changed.min.svg"
+        srcset="/svg/version/0.2.0-changed.min.svg, /svg/version/0.2.0-changed.min.svg 1.5x, /svg/version/0.2.0-changed.min.svg 2x"
+        sizes="auto"
+        alt="DoIt CHANGED | 0.2.0"
+        title="DoIt CHANGED | 0.2.0" ></a>
+<p>The <code>bilibili</code> shortcode embeds a responsive video player for bilibili videos.</p>
+<p>When the video only has one part, only the BV <code>id</code> of the video is required, e.g.:</p>
+<pre tabindex="0"><code class="language-code" data-lang="code">https://www.bilibili.com/video/BV1Sx411T7QQ
+</code></pre><p>Example <code>bilibili</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">bilibili</span> <span style="color:#a6e22e">BV1Sx411T7QQ</span> &gt;}}
+</span></span><span style="display:flex;"><span>Or
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">bilibili</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">BV1Sx411T7QQ</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<div class="bilibili"><iframe src="//player.bilibili.com/player.html?bvid=BV1Sx411T7QQ&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
+
+<p>When the video has multiple parts, in addition to the BV <code>id</code> of the video,
+<code>p</code> is also required, whose default value is <code>1</code>, e.g.:</p>
+<pre tabindex="0"><code class="language-code" data-lang="code">https://www.bilibili.com/video/BV1TJ411C7An?p=3
+</code></pre><p>Example <code>bilibili</code> input with <code>p</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">bilibili</span> <span style="color:#a6e22e">BV1TJ411C7An</span> <span style="color:#a6e22e">3</span> &gt;}}
+</span></span><span style="display:flex;"><span>Or
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">bilibili</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">BV1TJ411C7An</span> <span style="color:#a6e22e">p</span><span style="color:#f92672">=</span><span style="color:#e6db74">3</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<div class="bilibili"><iframe src="//player.bilibili.com/player.html?bvid=BV1TJ411C7An&page=3" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
+
+<h2 id="typeit" class="headerLink">
+    <a href="#typeit" class="header-mark"></a>typeit</h2><p>The <code>typeit</code> shortcode provides typing animation based on <a href="https://typeitjs.com/" target="_blank" rel="noopener noreferrer">TypeIt</a>.</p>
+<p>Just insert your content in the <code>typeit</code> shortcode and that’s it.</p>
+<h3 id="simple-content" class="headerLink">
+    <a href="#simple-content" class="header-mark"></a>Simple Content</h3><p>Simple content is allowed in <code>Markdown</code> format and <strong>without</strong> rich block content such as images and more&hellip;</p>
+<p>Example <code>typeit</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">typeit</span> &gt;}}
+</span></span><span style="display:flex;"><span>This is a <span style="font-style:italic">*paragraph*</span> with <span style="font-weight:bold">**typing animation**</span> based on [<span style="color:#f92672">TypeIt</span>](<span style="color:#a6e22e">https://typeitjs.com/</span>)...
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">typeit</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<div class="typeit"><div id="id-5" class=""></div></div>
+
+<p>Alternatively, you can use custom <strong>HTML tags</strong>.</p>
+<p>Example <code>typeit</code> input with <code>h4</code> tag:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">typeit</span> <span style="color:#a6e22e">tag</span><span style="color:#f92672">=</span><span style="color:#e6db74">h4</span> &gt;}}
+</span></span><span style="display:flex;"><span>This is a <span style="font-style:italic">*paragraph*</span> with <span style="font-weight:bold">**typing animation**</span> based on [<span style="color:#f92672">TypeIt</span>](<span style="color:#a6e22e">https://typeitjs.com/</span>)...
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">typeit</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<div class="typeit"><h4 id="id-6" class=""></h4></div>
+
+<h3 id="code-content" class="headerLink">
+    <a href="#code-content" class="header-mark"></a>Code Content</h3><p>Code content is allowed and will be highlighted by the named parameter <code>code</code> for the type of code language.</p>
+<p>Example <code>typeit</code> input with <code>code</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">typeit</span> <span style="color:#a6e22e">code</span><span style="color:#f92672">=</span><span style="color:#e6db74">java</span> &gt;}}
+</span></span><span style="display:flex;"><span>public class HelloWorld {
+</span></span><span style="display:flex;"><span>    public static void main(String []args) {
+</span></span><span style="display:flex;"><span>        System.out.println(&#34;Hello World&#34;);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">typeit</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<div class="typeit"><div id="id-7" class=" highlight"></div></div>
+
+<h3 id="group-content" class="headerLink">
+    <a href="#group-content" class="header-mark"></a>Group Content</h3><p>All typing animations start at the same time by default.
+But sometimes you may want to start a set of <code>typeit</code> contents in order.</p>
+<p>A set of <code>typeit</code> contents with the same value of named parameter <code>group</code> will start typing animation in sequence.</p>
+<p>Example <code>typeit</code> input with <code>group</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">typeit</span> <span style="color:#a6e22e">group</span><span style="color:#f92672">=</span><span style="color:#e6db74">paragraph</span> &gt;}}
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">**First**</span> this paragraph begins
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">typeit</span> &gt;}}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">typeit</span> <span style="color:#a6e22e">group</span><span style="color:#f92672">=</span><span style="color:#e6db74">paragraph</span> &gt;}}
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">**Then**</span> this paragraph begins
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">typeit</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<div class="typeit"><div id="id-8" class=""></div></div>
+
+<div class="typeit"><div id="id-9" class=""></div></div>
+
+<h2 id="script" class="headerLink">
+    <a href="#script" class="header-mark"></a>script</h2><a href="https://github.com/HEIGE-PCloud/DoIt/releases/tag/v0.2.8" rel="noopener noreferrer" target="_blank"><img
+        class="version"
+        loading="lazy"
+        src="/svg/version/0.2.8-new.min.svg"
+        srcset="/svg/version/0.2.8-new.min.svg, /svg/version/0.2.8-new.min.svg 1.5x, /svg/version/0.2.8-new.min.svg 2x"
+        sizes="auto"
+        alt="DoIt NEW | 0.2.8"
+        title="DoIt NEW | 0.2.8" ></a>
+<p><code>script</code> is a shortcode to insert custom <strong>:(fab fa-js fa-fw): Javascript</strong> in your post.</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">The script content can be guaranteed to be executed in order after all third-party libraries are loaded. So you are free to use third-party libraries.</div>
+        </div>
+    </div>
+<p>Example <code>script</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">script</span> &gt;}}
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Just DoIt!&#39;</span>);
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">script</span> &gt;}}
+</span></span></code></pre></div><p>You can see the output in the console of the developer tool.</p>
+
+<h2 id="friend" class="headerLink">
+    <a href="#friend" class="header-mark"></a>friend</h2><a href="https://github.com/HEIGE-PCloud/DoIt/releases/tag/v0.2.11" rel="noopener noreferrer" target="_blank"><img
+        class="version"
+        loading="lazy"
+        src="/svg/version/0.2.11-new.min.svg"
+        srcset="/svg/version/0.2.11-new.min.svg, /svg/version/0.2.11-new.min.svg 1.5x, /svg/version/0.2.11-new.min.svg 2x"
+        sizes="auto"
+        alt="DoIt NEW | 0.2.11"
+        title="DoIt NEW | 0.2.11" ></a>
+<p><code>friend</code> is a shortcode to insert a friend link to your friend&rsquo;s site in your post.</p>
+<p>The <code>friend</code> shortcode has the following named parameters:</p>
+<ul>
+<li>
+<p><strong>name</strong> <em>[required]</em> (<strong>first</strong> positional parameter)</p>
+<p>Your friend site&rsquo;s name.</p>
+</li>
+<li>
+<p><strong>url</strong> <em>[required]</em> (<strong>second</strong> positional parameter)</p>
+<p>The link to your friend site.</p>
+</li>
+<li>
+<p><strong>avatar</strong> <em>[required]</em> (<strong>third</strong> positional parameter)</p>
+<p>Your friend site&rsquo;s avatar.</p>
+</li>
+<li>
+<p><strong>bio</strong> <em>[required]</em> (<strong>fourth</strong> positional parameter)</p>
+<p>A short bio of your friend site.</p>
+</li>
+</ul>
+<p>Example <code>friend</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">friend</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">PCloud</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">https:</span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">github</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">com</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">HEIGE-PCloud</span><span style="color:#960050;background-color:#1e0010">/&#34;</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">https:</span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">avatars</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">githubusercontent</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">com</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">u</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">52968553</span><span style="color:#960050;background-color:#1e0010">?</span><span style="color:#a6e22e">v</span><span style="color:#f92672">=</span><span style="color:#e6db74">4&#34;</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">This</span> <span style="color:#a6e22e">is</span> <span style="color:#a6e22e">PCloud</span><span style="color:#960050;background-color:#1e0010">~💤&#34;</span> &gt;}}
+</span></span><span style="display:flex;"><span>Or
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">friend</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;PCloud&#34;</span> <span style="color:#a6e22e">url</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://github.com/HEIGE-PCloud/&#34;</span> <span style="color:#a6e22e">avatar</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://avatars.githubusercontent.com/u/52968553?v=4&#34;</span> <span style="color:#a6e22e">bio</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;This is PCloud~💤&#34;</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<a target="_blank" href="https://github.com/HEIGE-PCloud/" title="PCloud" class="friend-link" rel="noopener noreferrer">
+    <div class="friend-link-div">
+        <div class="friend-link-avatar"><img
+        
+        loading="lazy"
+        src="https://avatars.githubusercontent.com/u/52968553?v=4"
+        srcset="https://avatars.githubusercontent.com/u/52968553?v=4, https://avatars.githubusercontent.com/u/52968553?v=4 1.5x, https://avatars.githubusercontent.com/u/52968553?v=4 2x"
+        sizes="auto"
+        alt="https://avatars.githubusercontent.com/u/52968553?v=4"
+        title="https://avatars.githubusercontent.com/u/52968553?v=4" ></div>
+        <div class="friend-link-info">
+            <div class="friend-name-div">
+                <i class="fas fa-user-circle fa-fw"></i>
+                <i class="friend-name">PCloud</i>
+            </div>
+            <p class="friend-bio">This is PCloud~💤</p>
+        </div>
+    </div>
+</a>
+<h2 id="showcase" class="headerLink">
+    <a href="#showcase" class="header-mark"></a>showcase</h2><a href="https://github.com/HEIGE-PCloud/DoIt/releases/tag/v0.2.12" rel="noopener noreferrer" target="_blank"><img
+        class="version"
+        loading="lazy"
+        src="/svg/version/0.2.12-new.min.svg"
+        srcset="/svg/version/0.2.12-new.min.svg, /svg/version/0.2.12-new.min.svg 1.5x, /svg/version/0.2.12-new.min.svg 2x"
+        sizes="auto"
+        alt="DoIt NEW | 0.2.12"
+        title="DoIt NEW | 0.2.12" ></a>
+<p><code>showcase</code> is a shortcode to insert a showcase of your project in the post.</p>
+<p>The <code>showcase</code> shortcode has the following named parameters:</p>
+<ul>
+<li>
+<p><strong>title</strong> <em>[required]</em> (<strong>first</strong> positional parameter)</p>
+<p>The title of your showcase.</p>
+</li>
+<li>
+<p><strong>summary</strong> <em>[required]</em> (<strong>second</strong> positional parameter)</p>
+<p>A brief introduction to your project.</p>
+</li>
+<li>
+<p><strong>image</strong> <em>[required]</em> (<strong>third</strong> positional parameter)</p>
+<p>The url to the preview image.</p>
+</li>
+<li>
+<p><strong>link</strong> <em>[required]</em> (<strong>fourth</strong> positional parameter)</p>
+<p>The url to your project page.</p>
+</li>
+<li>
+<p><strong>column</strong> <em>[optional]</em> (<strong>fifth</strong> positional parameter)</p>
+<p>This parameter defines how many showcases are in each row. The default value is 2, which means there will have two showcases in each row. You can change it to 1, 2 or 3. It’s important to note that when a user visits the website on a small screen, the number of the column may be auto-adjusted to provide the best experience.</p>
+</li>
+</ul>
+<p>Example <code>showcase</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">showcase</span> <span style="color:#a6e22e">title</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Theme Documentation - Basics&#34;</span> <span style="color:#a6e22e">summary</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Discover what the Hugo - DoIt theme is all about and the core-concepts behind it.&#34;</span> <span style="color:#a6e22e">image</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/theme-documentation-basics/featured-image.webp&#34;</span> <span style="color:#a6e22e">link</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/theme-documentation-basics&#34;</span> &gt;}}
+</span></span><span style="display:flex;"><span>Or
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">showcase</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">Theme</span> <span style="color:#a6e22e">Documentation</span> <span style="color:#a6e22e">-</span> <span style="color:#a6e22e">Basics</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">Discover</span> <span style="color:#a6e22e">what</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">Hugo</span> <span style="color:#a6e22e">-</span> <span style="color:#a6e22e">DoIt</span> <span style="color:#a6e22e">theme</span> <span style="color:#a6e22e">is</span> <span style="color:#a6e22e">all</span> <span style="color:#a6e22e">about</span> <span style="color:#a6e22e">and</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">core-concepts</span> <span style="color:#a6e22e">behind</span> <span style="color:#a6e22e">it</span><span style="color:#960050;background-color:#1e0010">.&#34;</span> <span style="color:#960050;background-color:#1e0010">&#34;/</span><span style="color:#a6e22e">theme-documentation-basics</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">featured-image</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">webp</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">&#34;/</span><span style="color:#a6e22e">theme-documentation-basics</span><span style="color:#960050;background-color:#1e0010">&#34;</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+
+<div class="showcase-box column-2">
+    <div class="showcase-image">
+        <a href=/theme-documentation-basics><img
+        
+        loading="lazy"
+        src="/theme-documentation-basics/featured-image.webp"
+        srcset="/theme-documentation-basics/featured-image.webp, /theme-documentation-basics/featured-image.webp 1.5x, /theme-documentation-basics/featured-image.webp 2x"
+        sizes="auto"
+        alt="Theme Documentation - Basics"
+        title="Theme Documentation - Basics" height="200"   width="400" ></a>
+    </div>
+    <h2 class="showcase-title">
+        <a href=/theme-documentation-basics>Theme Documentation - Basics</a>
+    </h2>
+    <p class="showcase-summary">
+        Discover what the Hugo - DoIt theme is all about and the core-concepts behind it.
+    </p>
+    <a class="showcase-link" href=/theme-documentation-basics>
+        Read more...
+    </a>
+</div>
+<h2 id="math" class="headerLink">
+    <a href="#math" class="header-mark"></a>math</h2><a href="https://github.com/HEIGE-PCloud/DoIt/releases/tag/v0.2.12" rel="noopener noreferrer" target="_blank"><img
+        class="version"
+        loading="lazy"
+        src="/svg/version/0.2.12-new.min.svg"
+        srcset="/svg/version/0.2.12-new.min.svg, /svg/version/0.2.12-new.min.svg 1.5x, /svg/version/0.2.12-new.min.svg 2x"
+        sizes="auto"
+        alt="DoIt NEW | 0.2.12"
+        title="DoIt NEW | 0.2.12" ></a>
+<p><code>math</code> is a shortcode to insert a math expression in your post. This can prevent <a href="https://gohugo.io/getting-started/configuration-markup/#goldmark" target="_blank" rel="noopener noreferrer">Goldmark</a> from parsing math expressions into HTML. You no longer need to escape special characters inside this shortcode.</p>
+<p>Example <code>math</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">math</span> &gt;}}$\|\boldsymbol{x}\|_{0}=\sqrt[0]{\sum_{i} x_{i}^{0}}${{&lt; /<span style="color:#f92672">math</span> &gt;}}
+</span></span><span style="display:flex;"><span>Or
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">math</span> &gt;}}
+</span></span><span style="display:flex;"><span>$$\|\boldsymbol{x}\|_{0}=\sqrt[0]{\sum_{i} x_{i}^{0}}$$
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">math</span> &gt;}}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+$\|\boldsymbol{x}\|_{0}=\sqrt[0]{\sum_{i} x_{i}^{0}}$
+
+$$\|\boldsymbol{x}\|_{0}=\sqrt[0]{\sum_{i} x_{i}^{0}}$$</div>
+
+        <div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2020-03-06</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share"></div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/shortcodes/">shortcodes</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/basic-markdown-syntax/" class="prev" rel="prev" title="Basic Markdown Syntax"><i class="fas fa-angle-left fa-fw"></i>Basic Markdown Syntax</a>
+            <a href="/posts/theme-documentation-built-in-shortcodes/" class="next" rel="next" title="Theme Documentation - Built-in Shortcodes">Theme Documentation - Built-in Shortcodes<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+</article></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">
+                    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer" title="Hugo 0.118.2">Hugo</a>&nbsp;|&nbsp;Theme - <a href="https://github.com/HEIGE-PCloud/DoIt" target="_blank" rel="noopener noreferrer" title="DoIt 0.4.0"><i class="far fa-edit fa-fw"></i> DoIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer"></a></span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer></div>
+
+    <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="Back to Top">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true, theme: (window.theme === 'dark' ? 'dark' : 'default') });
+</script><div class="assets"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/mapbox-gl/mapbox-gl.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/aplayer/APlayer.min.css">
+        <noscript><link rel="stylesheet" href="/lib/aplayer/APlayer.min.css"></noscript><link rel="stylesheet" href="/lib/aplayer/dark.min.css"><link rel="stylesheet" href="/css/2f1ef0.min.css"><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"data":{"id-2":"{\"grid\":{\"bottom\":\"5%\",\"containLabel\":true,\"left\":\"5%\",\"right\":\"5%\",\"top\":\"20%\"},\"legend\":{\"data\":[\"Email Marketing\",\"Affiliate Advertising\",\"Video Advertising\",\"Direct View\",\"Search Engine\"],\"top\":\"10%\"},\"series\":[{\"data\":[120,132,101,134,90,230,210],\"name\":\"Email Marketing\",\"stack\":\"Total\",\"type\":\"line\"},{\"data\":[220,182,191,234,290,330,310],\"name\":\"Affiliate Advertising\",\"stack\":\"Total\",\"type\":\"line\"},{\"data\":[150,232,201,154,190,330,410],\"name\":\"Video Advertising\",\"stack\":\"Total\",\"type\":\"line\"},{\"data\":[320,332,301,334,390,330,320],\"name\":\"Direct View\",\"stack\":\"Total\",\"type\":\"line\"},{\"data\":[820,932,901,934,1290,1330,1320],\"name\":\"Search Engine\",\"stack\":\"Total\",\"type\":\"line\"}],\"title\":{\"left\":\"center\",\"text\":\"Summary Line Chart\",\"top\":\"2%\"},\"toolbox\":{\"feature\":{\"saveAsImage\":{\"title\":\"Save as Image\"}}},\"tooltip\":{\"trigger\":\"axis\"},\"xAxis\":{\"boundaryGap\":false,\"data\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"type\":\"category\"},\"yAxis\":{\"type\":\"value\"}}","id-3":{"darkStyle":null,"fullscreen":null,"geolocate":null,"lat":31.233,"lightStyle":null,"lng":121.485,"marked":true,"navigation":null,"scale":null,"zoom":12},"id-4":{"darkStyle":"mapbox://styles/mapbox/navigation-preview-night-v4?optimize=true","fullscreen":null,"geolocate":null,"lat":37.453,"lightStyle":"mapbox://styles/mapbox/navigation-preview-day-v4?optimize=true","lng":-122.252,"marked":false,"navigation":null,"scale":null,"zoom":10},"id-5":"This is a \u003cem\u003eparagraph\u003c/em\u003e with \u003cstrong\u003etyping animation\u003c/strong\u003e based on \u003ca href=\"https://typeitjs.com/\" target=\"_blank\" rel=\"noopener noreferrer\"\u003eTypeIt\u003c/a\u003e\u0026hellip;","id-6":"This is a \u003cem\u003eparagraph\u003c/em\u003e with \u003cstrong\u003etyping animation\u003c/strong\u003e based on \u003ca href=\"https://typeitjs.com/\" target=\"_blank\" rel=\"noopener noreferrer\"\u003eTypeIt\u003c/a\u003e\u0026hellip;","id-7":"\u003cdiv class=\"highlight\"\u003e\u003cpre tabindex=\"0\"\u0026nbsp;style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"\u003e\u003ccode class=\"language-java\"\u0026nbsp;data-lang=\"java\"\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u003c/span\u003e\u003cbr /\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u003cspan style=\"color:#66d9ef\"\u003epublic\u003c/span\u003e\u0026nbsp;\u003cspan style=\"color:#66d9ef\"\u003eclass\u003c/span\u003e\u0026nbsp;\u003cspan style=\"color:#a6e22e\"\u003eHelloWorld\u003c/span\u003e\u0026nbsp;\u003cspan style=\"color:#f92672\"\u003e{\u003c/span\u003e\u003c/span\u003e\u003cbr /\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u003cspan style=\"color:#66d9ef\"\u003epublic\u003c/span\u003e\u0026nbsp;\u003cspan style=\"color:#66d9ef\"\u003estatic\u003c/span\u003e\u0026nbsp;\u003cspan style=\"color:#66d9ef\"\u003evoid\u003c/span\u003e\u0026nbsp;\u003cspan style=\"color:#a6e22e\"\u003emain\u003c/span\u003e\u003cspan style=\"color:#f92672\"\u003e(\u003c/span\u003eString\u0026nbsp;\u003cspan style=\"color:#f92672\"\u003e[]\u003c/span\u003eargs\u003cspan style=\"color:#f92672\"\u003e)\u003c/span\u003e\u0026nbsp;\u003cspan style=\"color:#f92672\"\u003e{\u003c/span\u003e\u003c/span\u003e\u003cbr /\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;System\u003cspan style=\"color:#f92672\"\u003e.\u003c/span\u003e\u003cspan style=\"color:#a6e22e\"\u003eout\u003c/span\u003e\u003cspan style=\"color:#f92672\"\u003e.\u003c/span\u003e\u003cspan style=\"color:#a6e22e\"\u003eprintln\u003c/span\u003e\u003cspan style=\"color:#f92672\"\u003e(\u003c/span\u003e\u003cspan style=\"color:#e6db74\"\u003e\u0026#34;Hello\u0026nbsp;World\u0026#34;\u003c/span\u003e\u003cspan style=\"color:#f92672\"\u003e);\u003c/span\u003e\u003c/span\u003e\u003cbr /\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u003cspan style=\"color:#f92672\"\u003e}\u003c/span\u003e\u003c/span\u003e\u003cbr /\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u003cspan style=\"color:#f92672\"\u003e}\u003c/span\u003e\u003c/span\u003e\u003cbr /\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e","id-8":"\u003cstrong\u003eFirst\u003c/strong\u003e this paragraph begins","id-9":"\u003cstrong\u003eThen\u003c/strong\u003e this paragraph begins"},"echarts":true,"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"mapbox":{"RTLTextPlugin":"https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.0/mapbox-gl-rtl-text.js","accessToken":null},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"music":true,"typeit":{"cursorChar":null,"cursorSpeed":null,"data":{"id-5":["id-5"],"id-6":["id-6"],"id-7":["id-7"],"paragraph":["id-8","id-9"]},"duration":null,"speed":null}};</script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js" defer></script><script type="text/javascript" src="/lib/katex/auto-render.min.js" defer></script><script type="text/javascript" src="/js/katex.min.js" defer></script><script type="text/javascript" src="/lib/echarts/echarts.min.js" defer></script><script type="text/javascript" src="/lib/echarts/macarons.min.min.js" defer></script><script type="text/javascript" src="/js/echarts.min.js" defer></script><script type="text/javascript" src="/lib/mapbox-gl/mapbox-gl.min.js"></script><script type="text/javascript" src="/lib/mapbox-gl/mapbox-gl-language.min.js"></script><script type="text/javascript" src="/lib/aplayer/APlayer.min.js" defer></script><script type="text/javascript" src="/lib/meting/Meting.min.js" defer></script><script type="text/javascript" src="/js/theme.min.js" defer></script><script type="text/javascript">
+console.log('Just DoIt!');</script></div>
+</body>
+
+</html>
