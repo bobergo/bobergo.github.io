@@ -1,83 +1,70 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on </title>
-    <link>http://bobergo.github.io/tags/</link>
-    <description>Recent content in Tags on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://bobergo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>css</title>
-      <link>http://bobergo.github.io/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://bobergo.github.io/tags/css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>html</title>
-      <link>http://bobergo.github.io/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://bobergo.github.io/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>markdown</title>
-      <link>http://bobergo.github.io/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://bobergo.github.io/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy</title>
-      <link>http://bobergo.github.io/tags/privacy/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://bobergo.github.io/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shortcodes</title>
-      <link>http://bobergo.github.io/tags/shortcodes/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://bobergo.github.io/tags/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>text</title>
-      <link>http://bobergo.github.io/tags/text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://bobergo.github.io/tags/text/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>emoji</title>
-      <link>http://bobergo.github.io/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://bobergo.github.io/tags/emoji/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>index</title>
-      <link>http://bobergo.github.io/tags/index/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://bobergo.github.io/tags/index/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - DoIt</title>
+        <link>https://bobergo.github.io/tags/</link>
+        <description>Tags - Tag - DoIt</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 11 Aug 2022 14:53:59 &#43;0100</lastBuildDate><atom:link href="https://bobergo.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Markdown</title>
+    <link>https://bobergo.github.io/tags/markdown/</link>
+    <pubDate>Thu, 11 Aug 2022 14:53:59 &#43;0100</pubDate><author>
+        <name>Author</name>
+    </author><guid>https://bobergo.github.io/tags/markdown/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>shortcodes</title>
+    <link>https://bobergo.github.io/tags/shortcodes/</link>
+    <pubDate>Thu, 11 Aug 2022 14:53:59 &#43;0100</pubDate><author>
+        <name>Author</name>
+    </author><guid>https://bobergo.github.io/tags/shortcodes/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>diagram</title>
+    <link>https://bobergo.github.io/tags/diagram/</link>
+    <pubDate>Mon, 28 Feb 2022 14:27:14 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>https://bobergo.github.io/tags/diagram/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>PWA</title>
+    <link>https://bobergo.github.io/tags/pwa/</link>
+    <pubDate>Mon, 10 May 2021 16:21:41 &#43;0100</pubDate><author>
+        <name>Author</name>
+    </author><guid>https://bobergo.github.io/tags/pwa/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>content</title>
+    <link>https://bobergo.github.io/tags/content/</link>
+    <pubDate>Wed, 04 Mar 2020 15:58:26 &#43;0800</pubDate><author>
+        <name>Author</name>
+    </author><guid>https://bobergo.github.io/tags/content/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>configuration</title>
+    <link>https://bobergo.github.io/tags/configuration/</link>
+    <pubDate>Tue, 03 Mar 2020 21:29:01 &#43;0800</pubDate><author>
+        <name>Author</name>
+    </author><guid>https://bobergo.github.io/tags/configuration/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>installation</title>
+    <link>https://bobergo.github.io/tags/installation/</link>
+    <pubDate>Tue, 03 Mar 2020 21:29:01 &#43;0800</pubDate><author>
+        <name>Author</name>
+    </author><guid>https://bobergo.github.io/tags/installation/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>HTML</title>
+    <link>https://bobergo.github.io/tags/html/</link>
+    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate><author>
+        <name>Author</name>
+    </author><guid>https://bobergo.github.io/tags/html/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>emoji</title>
+    <link>https://bobergo.github.io/tags/emoji/</link>
+    <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate><author>
+        <name>Author</name>
+    </author><guid>https://bobergo.github.io/tags/emoji/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>
