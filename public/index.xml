@@ -1,101 +1,67 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>DoIt</title>
-        <link>https://bobergo.github.io/</link>
-        <description>DoIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 13 Sep 2023 18:11:02 &#43;0800</lastBuildDate>
-            <atom:link href="https://bobergo.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>Theme Documentation - Basics</title>
-    <link>https://bobergo.github.io/posts/theme-documentation-basics/</link>
-    <pubDate>Tue, 03 Mar 2020 21:29:01 &#43;0800</pubDate><author>
-                    <name>Dillon</name>
-                </author><author>
-                    <name>PCloud</name>
-                </author><guid>https://bobergo.github.io/posts/theme-documentation-basics/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/posts/theme-documentation-basics/featured-image.webp" referrerpolicy="no-referrer">
-            </div><p>Discover what the Hugo - <strong>DoIt</strong> theme is all about and the core-concepts behind it.</p>]]></description>
-</item><item>
-    <title>Theme Documentation - Content</title>
-    <link>https://bobergo.github.io/posts/theme-documentation-content/</link>
-    <pubDate>Wed, 04 Mar 2020 15:58:26 &#43;0800</pubDate><author>
-                    <name>Dillon</name>
-                </author><author>
-                    <name>PCloud</name>
-                </author><guid>https://bobergo.github.io/posts/theme-documentation-content/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/posts/theme-documentation-content/featured-image.webp" referrerpolicy="no-referrer">
-            </div><p>Find out how to create and organize your content quickly and intuitively in <strong>DoIt</strong> theme.</p>]]></description>
-</item><item>
-    <title>Theme Documentation - Built-in Shortcodes</title>
-    <link>https://bobergo.github.io/posts/theme-documentation-built-in-shortcodes/</link>
-    <pubDate>Thu, 05 Mar 2020 16:29:41 &#43;0800</pubDate><author>
-                    <name>Dillon</name>
-                </author><author>
-                    <name>PCloud</name>
-                </author><guid>https://bobergo.github.io/posts/theme-documentation-built-in-shortcodes/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/posts/theme-documentation-built-in-shortcodes/featured-image.webp" referrerpolicy="no-referrer">
-            </div><p><strong>Hugo</strong> provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.</p>]]></description>
-</item><item>
-    <title>Theme Documentation - Extended Shortcodes</title>
-    <link>https://bobergo.github.io/posts/theme-documentation-extended-shortcodes/</link>
-    <pubDate>Fri, 06 Mar 2020 16:29:41 &#43;0800</pubDate><author>
-                    <name>Dillon</name>
-                </author><author>
-                    <name>PCloud</name>
-                </author><guid>https://bobergo.github.io/posts/theme-documentation-extended-shortcodes/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/posts/theme-documentation-extended-shortcodes/featured-image-preview.webp" referrerpolicy="no-referrer">
-            </div><p><strong>DoIt</strong> theme provides multiple shortcodes on top of built-in ones in Hugo.</p>]]></description>
-</item><item>
-    <title>Basic Markdown Syntax</title>
-    <link>https://bobergo.github.io/posts/basic-markdown-syntax/</link>
-    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate><author>
-                    <name>Dillon</name>
-                </author><guid>https://bobergo.github.io/posts/basic-markdown-syntax/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/posts/basic-markdown-syntax/featured-image.webp" referrerpolicy="no-referrer">
-            </div><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
-</item><item>
-    <title>Emoji Support</title>
-    <link>https://bobergo.github.io/posts/emoji-support/</link>
-    <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate><author>
-                    <name>Dillon</name>
-                </author><guid>https://bobergo.github.io/posts/emoji-support/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/posts/emoji-support/featured-image.webp" referrerpolicy="no-referrer">
-            </div><p>Emoji can be enabled in a Hugo project in a number of ways.</p>]]></description>
-</item><item>
-    <title>PWA Support</title>
-    <link>https://bobergo.github.io/posts/pwa-support/</link>
-    <pubDate>Mon, 10 May 2021 16:21:41 &#43;0100</pubDate><author>
-                    <name>PCloud</name>
-                </author><guid>https://bobergo.github.io/posts/pwa-support/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/posts/pwa-support/featured-image.webp" referrerpolicy="no-referrer">
-            </div><p>Find out how to turn your DoIt site into a Progressive Web App.</p>]]></description>
-</item><item>
-    <title>First</title>
-    <link>https://bobergo.github.io/posts/first/</link>
-    <pubDate>Wed, 13 Sep 2023 18:11:02 &#43;0800</pubDate><author>
-        <name>Author</name>
-    </author><guid>https://bobergo.github.io/posts/first/</guid>
-    <description><![CDATA[This is my first doc.]]></description>
-</item><item>
-    <title>Related tests</title>
-    <link>https://bobergo.github.io/posts/tests/related-tests/</link>
-    <pubDate>Thu, 11 Aug 2022 14:53:59 &#43;0100</pubDate><author>
-                    <name>PCloud</name>
-                </author><guid>https://bobergo.github.io/posts/tests/related-tests/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>How to create diagrams in DoIt</title>
-    <link>https://bobergo.github.io/posts/how-to-doit/create-diagrams/</link>
-    <pubDate>Mon, 28 Feb 2022 14:27:14 &#43;0000</pubDate><author>
-                    <name>PCloud</name>
-                </author><guid>https://bobergo.github.io/posts/how-to-doit/create-diagrams/</guid>
-    <description><![CDATA[This post explains how you can create custom SVG diagrams in DoIt using GoAT or Mermaid.]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://bobergo.github.io/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://bobergo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>http://bobergo.github.io/post/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://bobergo.github.io/post/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>http://bobergo.github.io/post/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://bobergo.github.io/post/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>http://bobergo.github.io/post/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://bobergo.github.io/post/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>http://bobergo.github.io/post/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://bobergo.github.io/post/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>http://bobergo.github.io/post/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://bobergo.github.io/post/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://bobergo.github.io/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://bobergo.github.io/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+https://github.com/yuin/goldmark https://github.</description>
+    </item>
+    
+  </channel>
 </rss>
