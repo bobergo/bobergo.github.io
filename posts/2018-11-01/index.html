@@ -522,7 +522,85 @@
   
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     
-    
+     <div
+      class="order-first sm:max-w-prose lg:ml-auto px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#表面的">表面的：</a></li>
+    <li><a href="#内里的">内里的：</a></li>
+    <li><a href="#潜意识中的">潜意识中的：</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#表面的">表面的：</a></li>
+    <li><a href="#内里的">内里的：</a></li>
+    <li><a href="#潜意识中的">潜意识中的：</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+ 
+<script>
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = e.attr('id');
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+          
+            $(e).removeClass('active');
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+        
+        onScroll();
+      });
+    }
+  })();
+</script>
+   </div>
+      </div>
+      
 
       <div class="min-w-0 min-h-0 max-w-fit">
         
@@ -533,18 +611,27 @@
           <p>对很多人来说，这个问题可能会伴随你的整个职业生涯，永远没有一个确切的答案。</p>
 <p>其实我就是典型的这种人，09年毕业，没有任何规划地到了深圳，稀里糊涂地进了第一家公司，抓住机会死心踏地兢兢业业地做，又鬼使神差地突然离开。10年加入了现在的东家，到现在，竟然都已经8个年头了。8年，人生中最重要的8年吗？</p>
 <p>回想一下8年前的自己，有多大的不同呢？</p>
-<p>表面的：
-外表：人老了，色衰了，皮肤松弛了，白头发增多了，发际线也后移了，似乎全部都是不好的方面呢？
-财务：这块毫无疑问应该是好太多了，依昔记得当初刚到深圳时没钱看病的苦楚。现在有了房子、车子，虽不是豪宅香车，却也让自己基本感到知足。平时的花销也没有刻意省钱或者怎样，遇到自己喜欢的、有实际用处的，基本也都会在纠结种草后最后拔草拿下。
-家庭：17年结婚了，结束了漫长的单身生涯，真是不易。这么多年虽有不少荒唐曲折的经历，但也不乏给自己留下了一些美好的记忆，随风而去吧，祝福每一个从我生命中走过的人。</p>
-<p>内里的：
-技术层面：C语言、C++初级、中级用法熟练使用，高级用法涉猎较少；POCO+ICE基本熟练使用；ASP+AngularJS+JAVA只能是基本了解；Mysql初级；Axure初级；PS基本功能熟悉，能满足日常应用；PPT制作，现在依然认为是其实是一个找素材的过程。
-沟通层面：这三年在市场上跑，应该还是有所提升，起码不太会惧怕去见一个陌生人。准备充分的情况下，也可以满满自信地在大的场合下讲解技术方案或者夸夸其谈。最近2次的销售会议上又感悟到：沟通就是要勇敢表达出自己的观点，不管在场坐的是谁，先把自己的观点表达出来，这样反而让自己更有底气。然后是说话要慢，不要着急。不过在与人闲聊上没有什么长进，总觉得自己不会聊天，面对公司领导，或者不经常交往的同事，竟然会有不自然、不舒服的感觉。
-人脉：应该没有太大变化，依然是工作中结识的同事，走的近了成为朋友，平时也不太会联系，有事的时候会去找，但是时间长了，估计也会变得几乎不相往来。从村里一起长大的邻里伙伴、到初中、高中、大学同学，基本都是保持了这种相处模式。以后怎样呢？
-心态：平淡了许多吧，少了刚出来时的急于求成，但依然有想继续证明自己的不平凡不平庸的想法，对未来还是有不少期许。
-对现状的认知：好像自己一直是这种状态，总是觉得对当下的自己并不满意，印象中唯有在接手8000的一年半截，自信心和对自己的评价都感觉到了人生巅峰一样的状态，再后来这种感觉就彻底地销声匿迹了。</p>
-<p>潜意识中的：
-对未来的茫然：也是感觉没有什么变化，工作2年时，略有想跳出去看看的想法，不过轻易的就被加薪200元给压了下去，加钱是一方面（虽然很少，但是自己也确实没啥出息），但更重要的原因毫无疑问是自己对出去后的也没有一个明确的规划吧！彼时如此，现时依然如此，过去的几年一直如此。</p>
+<div id="表面的" class="anchor"></div>
+<h2 class="relative group">表面的： 
+    
+</h2>
+<p><strong>外表：</strong> 人老了，色衰了，皮肤松弛了，白头发增多了，发际线也后移了，似乎全部都是不好的方面呢？</p>
+<p><strong>财务：</strong> 这块毫无疑问应该是好太多了，依昔记得当初刚到深圳时没钱看病的苦楚。现在有了房子、车子，虽不是豪宅香车，却也让自己基本感到知足。平时的花销也没有刻意省钱或者怎样，遇到自己喜欢的、有实际用处的，基本也都会在纠结种草后最后拔草拿下。</p>
+<p><strong>家庭：</strong> 17年结婚了，结束了漫长的单身生涯，真是不易。这么多年虽有不少荒唐曲折的经历，但也不乏给自己留下了一些美好的记忆，随风而去吧，祝福每一个从我生命中走过的人。</p>
+<div id="内里的" class="anchor"></div>
+<h2 class="relative group">内里的： 
+    
+</h2>
+<p><strong>技术层面：</strong> C语言、C++初级、中级用法熟练使用，高级用法涉猎较少；POCO+ICE基本熟练使用；ASP+AngularJS+JAVA只能是基本了解；Mysql初级；Axure初级；PS基本功能熟悉，能满足日常应用；PPT制作，现在依然认为是其实是一个找素材的过程。</p>
+<p><strong>沟通层面：</strong> 这三年在市场上跑，应该还是有所提升，起码不太会惧怕去见一个陌生人。准备充分的情况下，也可以满满自信地在大的场合下讲解技术方案或者夸夸其谈。最近2次的销售会议上又感悟到：沟通就是要勇敢表达出自己的观点，不管在场坐的是谁，先把自己的观点表达出来，这样反而让自己更有底气。然后是说话要慢，不要着急。不过在与人闲聊上没有什么长进，总觉得自己不会聊天，面对公司领导，或者不经常交往的同事，竟然会有不自然、不舒服的感觉。</p>
+<p><strong>人脉：</strong> 应该没有太大变化，依然是工作中结识的同事，走的近了成为朋友，平时也不太会联系，有事的时候会去找，但是时间长了，估计也会变得几乎不相往来。从村里一起长大的邻里伙伴、到初中、高中、大学同学，基本都是保持了这种相处模式。以后怎样呢？</p>
+<p><strong>心态：</strong> 平淡了许多吧，少了刚出来时的急于求成，但依然有想继续证明自己的不平凡不平庸的想法，对未来还是有不少期许。</p>
+<p><strong>对现状的认知：</strong> 好像自己一直是这种状态，总是觉得对当下的自己并不满意，印象中唯有在接手8000的一年半截，自信心和对自己的评价都感觉到了人生巅峰一样的状态，再后来这种感觉就彻底地销声匿迹了。</p>
+<div id="潜意识中的" class="anchor"></div>
+<h2 class="relative group">潜意识中的： 
+    
+</h2>
+<p><strong>对未来的茫然：</strong> 也是感觉没有什么变化，工作2年时，略有想跳出去看看的想法，不过轻易的就被加薪200元给压了下去，加钱是一方面（虽然很少，但是自己也确实没啥出息），但更重要的原因毫无疑问是自己对出去后的也没有一个明确的规划吧！彼时如此，现时依然如此，过去的几年一直如此。</p>
 <p>15年底时候转了市场体系，可这也不是自己规划的结果，而是被命运推波助澜。这3年兜兜转转，究竟干了多少自认为有价值的、让自己感觉有成就感与事业心态的事情？16刚入市场体系，体会新奇，实际还是多数做的研发（管理）工作，谈合作，跟进度，转瞬即逝；17组建研发队伍，工作性质基本彻底转为回到研发带队伍的性质，自己也沉浸在小公司小领导的小圈子中乐乐无大为；18又完全回到市场，客户交流方案编写是大头；而按事态的发展，19年又要回到研发带队状态，同时还要兼顾市场。这到底是一条什么样的曲线？我想知道，有人跟我一样吗？有成功的先例吗？</p>
 <p>长期出差时，总是对着家的方向，默默地告诉自己：明年我一定会结束这种生活的。回来休整的几天，又会有一个声音偷偷在说：这样的一张一弛不是很好吗？</p>
 <p>晚上或者周末被叫来开会，经常是很烦躁的，每当此时就会闪念出一定要脱离这个团队的想法。可有时又反过来想，假如是与这种宽松式的管理完全相反的事事紧逼型，自己就会很开心吗？</p>
