@@ -9,112 +9,172 @@
     
     <lastBuildDate>Fri, 15 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bobergo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Blog</title>
-      <link>https://bobergo.github.io/posts/first/</link>
+      <title>First Blog with Hugo&amp;Github</title>
+      <link>https://bobergo.github.io/posts/2023-09-15-first/</link>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://bobergo.github.io/posts/first/</guid>
+      <guid>https://bobergo.github.io/posts/2023-09-15-first/</guid>
       <description>献给一直以来萦绕心头的博客情结. 希望从此，在这个角落，能安放</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/first/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2023-09-15-first/featured.png" />
+    </item>
+    
+    <item>
+      <title>张仪的千古之骂之一</title>
+      <link>https://bobergo.github.io/posts/2019-03-04/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bobergo.github.io/posts/2019-03-04/</guid>
+      <description>张仪，以灵牙利口纵横战国，叱咤风云。孟轲，也就是孟子，儒家名</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2019-03-04/featured.webp" />
+    </item>
+    
+    <item>
+      <title>以后去哪儿之二</title>
+      <link>https://bobergo.github.io/posts/2019-02-15/</link>
+      <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bobergo.github.io/posts/2019-02-15/</guid>
+      <description>11月1日就抛出了这个话题，可是当时自己并没有真正想清楚，只</description>
+      
+    </item>
+    
+    <item>
+      <title>母亲的宿命</title>
+      <link>https://bobergo.github.io/posts/2019-01-24/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bobergo.github.io/posts/2019-01-24/</guid>
+      <description>从元旦开始，似乎整个人的灵魂与思想已经游离至九宵云外，而肉体</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2019-01-24/featured.webp" />
+    </item>
+    
+    <item>
+      <title>再出发</title>
+      <link>https://bobergo.github.io/posts/2019-01-01/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bobergo.github.io/posts/2019-01-01/</guid>
+      <description>今天，我终于掌握了48个音标、26个英文字母的发音以及默写，</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2019-01-01/featured.webp" />
+    </item>
+    
+    <item>
+      <title>你和你的妈妈</title>
+      <link>https://bobergo.github.io/posts/2018-12-24/</link>
+      <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bobergo.github.io/posts/2018-12-24/</guid>
+      <description>直到今天，我依然都不敢相信这是真的，生命真的是神奇，他/她就</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-12-24/featured.webp" />
+    </item>
+    
+    <item>
+      <title>第一次一个亿</title>
+      <link>https://bobergo.github.io/posts/2018-11-24/</link>
+      <pubDate>Sat, 24 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bobergo.github.io/posts/2018-11-24/</guid>
+      <description>从杭州到深圳，再从深圳到石家庄，我的不远万里南下又北上，不是</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-11-24/featured.webp" />
+    </item>
+    
+    <item>
+      <title>以后去哪儿</title>
+      <link>https://bobergo.github.io/posts/2018-11-01/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bobergo.github.io/posts/2018-11-01/</guid>
+      <description>对很多人来说，这个问题可能会伴随你的整个职业生涯，永远没有一</description>
+      
     </item>
     
     <item>
       <title>北京</title>
-      <link>https://bobergo.github.io/posts/20181025/</link>
+      <link>https://bobergo.github.io/posts/2018-10-25/</link>
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://bobergo.github.io/posts/20181025/</guid>
+      <guid>https://bobergo.github.io/posts/2018-10-25/</guid>
       <description>北京来的不多，也一直喜欢不起来。不过一些很有诗意与韵味的名字</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-25/featured.webp" />
     </item>
     
     <item>
       <title>深圳印象</title>
-      <link>https://bobergo.github.io/posts/20181021/</link>
+      <link>https://bobergo.github.io/posts/2018-10-21/</link>
       <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://bobergo.github.io/posts/20181021/</guid>
+      <guid>https://bobergo.github.io/posts/2018-10-21/</guid>
       <description>深圳湾大桥和对面的香港 台风过后 深圳湾看福田 深圳湾看香港 大南山</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/20181021/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-21/featured.webp" />
     </item>
     
     <item>
       <title>十年光阴</title>
-      <link>https://bobergo.github.io/posts/20181020/</link>
+      <link>https://bobergo.github.io/posts/2018-10-20/</link>
       <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://bobergo.github.io/posts/20181020/</guid>
+      <guid>https://bobergo.github.io/posts/2018-10-20/</guid>
       <description>真的是不知不觉，与深圳这片土地已经有接近十年的交情了。 我可能</description>
       
     </item>
     
     <item>
       <title>松树林IN杭州</title>
-      <link>https://bobergo.github.io/posts/20181016/</link>
+      <link>https://bobergo.github.io/posts/2018-10-16/</link>
       <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://bobergo.github.io/posts/20181016/</guid>
+      <guid>https://bobergo.github.io/posts/2018-10-16/</guid>
       <description>松树林在杭州的越野圈堪称是一块圣地了，各种地形地貌与纵横交错</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/20181016/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-16/featured.webp" />
     </item>
     
     <item>
       <title>贵阳的第N次</title>
-      <link>https://bobergo.github.io/posts/20181015/</link>
+      <link>https://bobergo.github.io/posts/2018-10-15/</link>
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://bobergo.github.io/posts/20181015/</guid>
+      <guid>https://bobergo.github.io/posts/2018-10-15/</guid>
       <description>数不清楚第几次来贵阳了，没记错的话第一次是在2012年，还被</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/20181015/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-15/featured.webp" />
     </item>
     
     <item>
       <title>橘子洲</title>
-      <link>https://bobergo.github.io/posts/20181013/</link>
+      <link>https://bobergo.github.io/posts/2018-10-13/</link>
       <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://bobergo.github.io/posts/20181013/</guid>
+      <guid>https://bobergo.github.io/posts/2018-10-13/</guid>
       <description>偷得半日闲，橘子洲头一游。 枫叶还未全红。 主席画像巍峨矗立，指</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/20181013/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-13/featured.webp" />
     </item>
     
     <item>
       <title>Q3销售会议思考之二</title>
-      <link>https://bobergo.github.io/posts/20181010/</link>
+      <link>https://bobergo.github.io/posts/2018-10-10/</link>
       <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://bobergo.github.io/posts/20181010/</guid>
+      <guid>https://bobergo.github.io/posts/2018-10-10/</guid>
       <description>今天讨论各区域的项目合同、回款及销售过程中遇到的问题，6个大</description>
       
     </item>
     
     <item>
       <title>Q3销售会议思考之一</title>
-      <link>https://bobergo.github.io/posts/20181009/</link>
+      <link>https://bobergo.github.io/posts/2018-10-09/</link>
       <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://bobergo.github.io/posts/20181009/</guid>
+      <guid>https://bobergo.github.io/posts/2018-10-09/</guid>
       <description>每一季度都会进行销售会议回顾，会把各大区总监、办事处主任以及</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/20181009/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-09/featured.webp" />
     </item>
     
     <item>
       <title>重拾</title>
-      <link>https://bobergo.github.io/posts/20181008/</link>
+      <link>https://bobergo.github.io/posts/2018-10-08/</link>
       <pubDate>Mon, 08 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://bobergo.github.io/posts/20181008/</guid>
+      <guid>https://bobergo.github.io/posts/2018-10-08/</guid>
       <description>自己总对别人吹嘘说自己也是喜欢读书与写字的人，其实潜意识里面</description>
-      
-    </item>
-    
-    <item>
-      <title>以后去哪儿</title>
-      <link>https://bobergo.github.io/posts/20181101/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://bobergo.github.io/posts/20181101/</guid>
-      <description>对很多人来说，这个问题可能会伴随你的整个职业生涯，永远没有一</description>
       
     </item>
     
