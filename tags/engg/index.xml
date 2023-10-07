@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Engg on 迷途小书童</title>
+    <link>https://bobergo.github.io/tags/engg/</link>
+    <description>Recent content in Engg on 迷途小书童</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Fri, 15 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://bobergo.github.io/tags/engg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>以后去哪儿之二</title>
+      <link>https://bobergo.github.io/posts/2019-02-15/</link>
+      <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bobergo.github.io/posts/2019-02-15/</guid>
+      <description>11月1日就抛出了这个话题，可是当时自己并没有真正想清楚，只</description>
+      
+    </item>
+    
+    <item>
+      <title>第一次一个亿</title>
+      <link>https://bobergo.github.io/posts/2018-11-24/</link>
+      <pubDate>Sat, 24 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bobergo.github.io/posts/2018-11-24/</guid>
+      <description>从杭州到深圳，再从深圳到石家庄，我的不远万里南下又北上，不是</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-11-24/featured.webp" />
+    </item>
+    
+    <item>
+      <title>Q3销售会议思考之二</title>
+      <link>https://bobergo.github.io/posts/2018-10-10/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bobergo.github.io/posts/2018-10-10/</guid>
+      <description>今天讨论各区域的项目合同、回款及销售过程中遇到的问题，6个大</description>
+      
+    </item>
+    
+    <item>
+      <title>Q3销售会议思考之一</title>
+      <link>https://bobergo.github.io/posts/2018-10-09/</link>
+      <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bobergo.github.io/posts/2018-10-09/</guid>
+      <description>每一季度都会进行销售会议回顾，会把各大区总监、办事处主任以及</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-09/featured.webp" />
+    </item>
+    
+  </channel>
+</rss>

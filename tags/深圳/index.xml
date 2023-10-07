@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>深圳 on 迷途小书童</title>
+    <link>https://bobergo.github.io/tags/%E6%B7%B1%E5%9C%B3/</link>
+    <description>Recent content in 深圳 on 迷途小书童</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Sun, 21 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://bobergo.github.io/tags/%E6%B7%B1%E5%9C%B3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>深圳印象</title>
+      <link>https://bobergo.github.io/posts/2018-10-21/</link>
+      <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bobergo.github.io/posts/2018-10-21/</guid>
+      <description>深圳湾大桥和对面的香港 台风过后 深圳湾看福田 深圳湾看香港 大南山</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-21/featured.webp" />
+    </item>
+    
+    <item>
+      <title>十年光阴</title>
+      <link>https://bobergo.github.io/posts/2018-10-20/</link>
+      <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bobergo.github.io/posts/2018-10-20/</guid>
+      <description>真的是不知不觉，与深圳这片土地已经有接近十年的交情了。 我可能</description>
+      
+    </item>
+    
+  </channel>
+</rss>

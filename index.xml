@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Fri, 15 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bobergo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bobergo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>小小孩剪头发之二</title>
+      <link>https://bobergo.github.io/posts/2023-10-06/</link>
+      <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://bobergo.github.io/posts/2023-10-06/</guid>
+      <description>又是一年国庆时节，难得八天假期。本来计划好带他去见爷爷奶奶，</description>
+      
+    </item>
+    
     <item>
       <title>First Blog with Hugo&amp;Github</title>
       <link>https://bobergo.github.io/posts/2023-09-15-first/</link>
@@ -16,6 +26,16 @@
       <guid>https://bobergo.github.io/posts/2023-09-15-first/</guid>
       <description>献给一直以来萦绕心头的博客情结. 希望从此，在这个角落，能安放</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2023-09-15-first/featured.png" />
+    </item>
+    
+    <item>
+      <title>小小孩剪头发之一</title>
+      <link>https://bobergo.github.io/posts/2022-11-20/</link>
+      <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bobergo.github.io/posts/2022-11-20/</guid>
+      <description>因为一个剪头发的事，整整一个下午都在和一个小孩子做斗争，可到</description>
+      
     </item>
     
     <item>
