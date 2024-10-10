@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>北京 on 迷途小书童</title>
+    <title>北京 - Tag - 迷途小书童</title>
     <link>https://bobergo.github.io/tags/%E5%8C%97%E4%BA%AC/</link>
-    <description>Recent content in 北京 on 迷途小书童</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>迷途小书童&#39;s Blog.</description>
+    <generator>Hugo 0.135.0 &amp; FixIt v0.3.13-95436c11</generator>
     <language>en</language>
-    
-    <lastBuildDate>Thu, 25 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://bobergo.github.io/tags/%E5%8C%97%E4%BA%AC/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 17:39:48 +0800</lastBuildDate>
+    <atom:link href="https://bobergo.github.io/tags/%E5%8C%97%E4%BA%AC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>北京</title>
       <link>https://bobergo.github.io/posts/2018-10-25/</link>
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-10-25/</guid>
-      <description>北京来的不多，也一直喜欢不起来。不过一些很有诗意与韵味的名字</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-25/featured.webp" />
+      <description>&lt;p&gt;北京来的不多，也一直喜欢不起来。不过一些很有诗意与韵味的名字一直留在脑海之中，比如陶然亭、紫竹苑，比如什刹海，比如公主坟、后海、香山等等。其实这些地方一个也没有到过，只是从书籍、电视中看到听到后自然而然留存在脑海中的记忆，也许这就是冥冥之中的缘分吧。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

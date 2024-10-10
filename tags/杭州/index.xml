@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>杭州 on 迷途小书童</title>
+    <title>杭州 - Tag - 迷途小书童</title>
     <link>https://bobergo.github.io/tags/%E6%9D%AD%E5%B7%9E/</link>
-    <description>Recent content in 杭州 on 迷途小书童</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>迷途小书童&#39;s Blog.</description>
+    <generator>Hugo 0.135.0 &amp; FixIt v0.3.13-95436c11</generator>
     <language>en</language>
-    
-    <lastBuildDate>Tue, 16 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://bobergo.github.io/tags/%E6%9D%AD%E5%B7%9E/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 17:39:48 +0800</lastBuildDate>
+    <atom:link href="https://bobergo.github.io/tags/%E6%9D%AD%E5%B7%9E/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>松树林IN杭州</title>
       <link>https://bobergo.github.io/posts/2018-10-16/</link>
       <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-10-16/</guid>
-      <description>松树林在杭州的越野圈堪称是一块圣地了，各种地形地貌与纵横交错</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-16/featured.webp" />
+      <description>&lt;p&gt;松树林在杭州的越野圈堪称是一块圣地了，各种地形地貌与纵横交错的路线，无论你是越野菜鸟还是圈里大V，在这里都能找到属于你的乐趣。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

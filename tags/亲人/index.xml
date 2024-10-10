@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>亲人 on 迷途小书童</title>
+    <title>亲人 - Tag - 迷途小书童</title>
     <link>https://bobergo.github.io/tags/%E4%BA%B2%E4%BA%BA/</link>
-    <description>Recent content in 亲人 on 迷途小书童</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>迷途小书童&#39;s Blog.</description>
+    <generator>Hugo 0.135.0 &amp; FixIt v0.3.13-95436c11</generator>
     <language>en</language>
-    
-    <lastBuildDate>Thu, 24 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://bobergo.github.io/tags/%E4%BA%B2%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 17:39:48 +0800</lastBuildDate>
+    <atom:link href="https://bobergo.github.io/tags/%E4%BA%B2%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>母亲的宿命</title>
       <link>https://bobergo.github.io/posts/2019-01-24/</link>
       <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2019-01-24/</guid>
-      <description>从元旦开始，似乎整个人的灵魂与思想已经游离至九宵云外，而肉体</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2019-01-24/featured.webp" />
+      <description>&lt;p&gt;从元旦开始，似乎整个人的灵魂与思想已经游离至九宵云外，而肉体游走于一日日的往复劳作之中，期盼着早会儿回去享受与父母团聚的天伦之乐。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

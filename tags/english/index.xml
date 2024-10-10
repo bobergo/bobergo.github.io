@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>English on 迷途小书童</title>
+    <title>English - Tag - 迷途小书童</title>
     <link>https://bobergo.github.io/tags/english/</link>
-    <description>Recent content in English on 迷途小书童</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>迷途小书童&#39;s Blog.</description>
+    <generator>Hugo 0.135.0 &amp; FixIt v0.3.13-95436c11</generator>
     <language>en</language>
-    
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://bobergo.github.io/tags/english/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 17:39:48 +0800</lastBuildDate>
+    <atom:link href="https://bobergo.github.io/tags/english/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>再出发</title>
       <link>https://bobergo.github.io/posts/2019-01-01/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2019-01-01/</guid>
-      <description>今天，我终于掌握了48个音标、26个英文字母的发音以及默写，</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2019-01-01/featured.webp" />
+      <description>&lt;p&gt;今天，我终于掌握了48个音标、26个英文字母的发音以及默写，这对我有着极大里程碑的意义。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

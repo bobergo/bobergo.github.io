@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>贵阳 on 迷途小书童</title>
+    <title>贵阳 - Tag - 迷途小书童</title>
     <link>https://bobergo.github.io/tags/%E8%B4%B5%E9%98%B3/</link>
-    <description>Recent content in 贵阳 on 迷途小书童</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>迷途小书童&#39;s Blog.</description>
+    <generator>Hugo 0.135.0 &amp; FixIt v0.3.13-95436c11</generator>
     <language>en</language>
-    
-    <lastBuildDate>Mon, 15 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://bobergo.github.io/tags/%E8%B4%B5%E9%98%B3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 17:39:48 +0800</lastBuildDate>
+    <atom:link href="https://bobergo.github.io/tags/%E8%B4%B5%E9%98%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>贵阳的第N次</title>
       <link>https://bobergo.github.io/posts/2018-10-15/</link>
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-10-15/</guid>
-      <description>数不清楚第几次来贵阳了，没记错的话第一次是在2012年，还被</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-15/featured.webp" />
+      <description>&lt;p&gt;数不清楚第几次来贵阳了，没记错的话第一次是在2012年，还被T哥招待喝酒喝到吐的稀里哗啦，丢人丢到家。再后来每年都要来个几次，跟这里真是缘份不浅。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

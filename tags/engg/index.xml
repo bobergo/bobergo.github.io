@@ -1,52 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Engg on 迷途小书童</title>
+    <title>Engg - Tag - 迷途小书童</title>
     <link>https://bobergo.github.io/tags/engg/</link>
-    <description>Recent content in Engg on 迷途小书童</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>迷途小书童&#39;s Blog.</description>
+    <generator>Hugo 0.135.0 &amp; FixIt v0.3.13-95436c11</generator>
     <language>en</language>
-    
-    <lastBuildDate>Fri, 15 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://bobergo.github.io/tags/engg/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 17:39:48 +0800</lastBuildDate>
+    <atom:link href="https://bobergo.github.io/tags/engg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>以后去哪儿之二</title>
       <link>https://bobergo.github.io/posts/2019-02-15/</link>
       <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2019-02-15/</guid>
-      <description>11月1日就抛出了这个话题，可是当时自己并没有真正想清楚，只</description>
-      
+      <description>&lt;p&gt;11月1日就抛出了这个话题，可是当时自己并没有真正想清楚，只是把这些年的变化与矛盾的心理铺陈开来。三个月后的今天，我到了必须直面这个问题的境地。大的环境背景是：18年经济与就业环境不好，一大堆企业经营不利，裁员风波，国家经济下行，到了历史的拐点等等；具体的境地是：我们公司也出现了销售额下滑、组织架构精简、人员收缩这一系列问题，短短的1个月时间，裁员接近三分之一，公司也毫无掩饰地对员工披露经营状况，高层降薪，年会更加务实，不再铺张，所有员工的过年福利也全部暂缓。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>第一次一个亿</title>
       <link>https://bobergo.github.io/posts/2018-11-24/</link>
       <pubDate>Sat, 24 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-11-24/</guid>
-      <description>从杭州到深圳，再从深圳到石家庄，我的不远万里南下又北上，不是</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-11-24/featured.webp" />
+      <description>&lt;p&gt;从杭州到深圳，再从深圳到石家庄，我的不远万里南下又北上，不是为了观看沿途的风景。而是，为了公司有史以来第一次一个亿的大项目。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Q3销售会议思考之二</title>
       <link>https://bobergo.github.io/posts/2018-10-10/</link>
       <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-10-10/</guid>
-      <description>今天讨论各区域的项目合同、回款及销售过程中遇到的问题，6个大</description>
-      
+      <description>&lt;p&gt;今天讨论各区域的项目合同、回款及销售过程中遇到的问题，6个大区依次汇报分享。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Q3销售会议思考之一</title>
       <link>https://bobergo.github.io/posts/2018-10-09/</link>
       <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-10-09/</guid>
-      <description>每一季度都会进行销售会议回顾，会把各大区总监、办事处主任以及</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-09/featured.webp" />
+      <description>&lt;p&gt;每一季度都会进行销售会议回顾，会把各大区总监、办事处主任以及公司高层领导、咨询师召集至某城市某酒店进行上季度销售工作回顾与下季度工作部署。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

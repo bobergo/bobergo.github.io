@@ -1,332 +1,243 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 迷途小书童</title>
+    <title>Posts - 迷途小书童</title>
     <link>https://bobergo.github.io/posts/</link>
-    <description>Recent content in Posts on 迷途小书童</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>迷途小书童&#39;s Blog.</description>
+    <generator>Hugo 0.135.0 &amp; FixIt v0.3.13-95436c11</generator>
     <language>en</language>
-    
-    <lastBuildDate>Mon, 13 Jun 2022 20:55:37 +0100</lastBuildDate><atom:link href="https://bobergo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Oct 2024 17:47:12 +0800</lastBuildDate>
+    <atom:link href="https://bobergo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为什么喜欢奥德赛</title>
+      <link>https://bobergo.github.io/posts/2023-12-22/</link>
+      <pubDate>Fri, 22 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://bobergo.github.io/posts/2023-12-22/</guid>
+      <description>&lt;p&gt;这是一辆面包车，蒙头蒙脑，这是大多数人对他的看法。这是一台MPV，年轻人一般都不会正眼看他一下，因为太不符合俊男靓女们前卫、帅、酷的气质了。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>小小孩剪头发之二</title>
       <link>https://bobergo.github.io/posts/2023-10-06/</link>
       <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2023-10-06/</guid>
-      <description>又是一年国庆时节，难得八天假期。本来计划好带他去见爷爷奶奶，</description>
-      
+      <description>&lt;p&gt;又是一年国庆时节，难得八天假期。本来计划好带他去见爷爷奶奶，想着节前最后一个周末剪好头发，可是还是一如既往，无论前面说多好，到真行动时就跟你赖皮，因为当时自己也有些烦燥（带他剪头发这事自己感觉也有了心里阴影了），所以也没太逼他，就这样到一直捱到假期。可事也凑巧，临近出发前两天，这小子竟然毫无征兆的病了，这下好了，出行计划全部取消，剪头发的事情也就顺延。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>First Blog with Hugo&amp;Github</title>
       <link>https://bobergo.github.io/posts/2023-09-15-first/</link>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2023-09-15-first/</guid>
-      <description>献给一直以来萦绕心头的博客情结. 希望从此，在这个角落，能安放</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2023-09-15-first/featured.png" />
+      <description>&lt;p&gt;献给一直以来萦绕心头的博客情结.&lt;/p&gt;&#xA;&lt;p&gt;希望从此，在这个角落，能安放自己世俗的心。不拘不束，敞开心扉。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>小小孩剪头发之一</title>
       <link>https://bobergo.github.io/posts/2022-11-20/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2022-11-20/</guid>
-      <description>因为一个剪头发的事，整整一个下午都在和一个小孩子做斗争，可到</description>
-      
+      <description>&lt;p&gt;因为一个剪头发的事，整整一个下午都在和一个小孩子做斗争，可到头来竟然是一个势不两立的结果，真是感叹无奈。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>张仪的千古之骂之一</title>
       <link>https://bobergo.github.io/posts/2019-03-04/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2019-03-04/</guid>
-      <description>张仪，以灵牙利口纵横战国，叱咤风云。孟轲，也就是孟子，儒家名</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2019-03-04/featured.webp" />
+      <description>&lt;p&gt;张仪，以灵牙利口纵横战国，叱咤风云。孟轲，也就是孟子，儒家名望，我们都学过他的《生于忧患，死于安乐》，也常听到”孔孟之道”，所以论知名度、论圣贤之争，可能还是孟子更广为人知一些。不过，《大秦帝国》中张仪与孟子、儒家的几次论战，着实让我有些重新认识了孟子与儒家学派。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>以后去哪儿之二</title>
       <link>https://bobergo.github.io/posts/2019-02-15/</link>
       <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2019-02-15/</guid>
-      <description>11月1日就抛出了这个话题，可是当时自己并没有真正想清楚，只</description>
-      
+      <description>&lt;p&gt;11月1日就抛出了这个话题，可是当时自己并没有真正想清楚，只是把这些年的变化与矛盾的心理铺陈开来。三个月后的今天，我到了必须直面这个问题的境地。大的环境背景是：18年经济与就业环境不好，一大堆企业经营不利，裁员风波，国家经济下行，到了历史的拐点等等；具体的境地是：我们公司也出现了销售额下滑、组织架构精简、人员收缩这一系列问题，短短的1个月时间，裁员接近三分之一，公司也毫无掩饰地对员工披露经营状况，高层降薪，年会更加务实，不再铺张，所有员工的过年福利也全部暂缓。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>母亲的宿命</title>
       <link>https://bobergo.github.io/posts/2019-01-24/</link>
       <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2019-01-24/</guid>
-      <description>从元旦开始，似乎整个人的灵魂与思想已经游离至九宵云外，而肉体</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2019-01-24/featured.webp" />
+      <description>&lt;p&gt;从元旦开始，似乎整个人的灵魂与思想已经游离至九宵云外，而肉体游走于一日日的往复劳作之中，期盼着早会儿回去享受与父母团聚的天伦之乐。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>再出发</title>
       <link>https://bobergo.github.io/posts/2019-01-01/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2019-01-01/</guid>
-      <description>今天，我终于掌握了48个音标、26个英文字母的发音以及默写，</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2019-01-01/featured.webp" />
+      <description>&lt;p&gt;今天，我终于掌握了48个音标、26个英文字母的发音以及默写，这对我有着极大里程碑的意义。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>你和你的妈妈</title>
       <link>https://bobergo.github.io/posts/2018-12-24/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-12-24/</guid>
-      <description>直到今天，我依然都不敢相信这是真的，生命真的是神奇，他/她就</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-12-24/featured.webp" />
+      <description>&lt;p&gt;直到今天，我依然都不敢相信这是真的，生命真的是神奇，他/她就这样在不知不觉、不经不意之间来了。此时此刻，你在妈妈的肚子里安详的睡着，也许能够隔着伟大的、骄傲的妈妈的肚子，倾听到未来老爸给你讲的故事，感觉到妈妈给你的温柔的爱抚。也许你也仅仅只是自顾自的睡着醒着，完全不理会外界的一切？无论怎样，我们都很开心，你随着你的性子来哈。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>第一次一个亿</title>
       <link>https://bobergo.github.io/posts/2018-11-24/</link>
       <pubDate>Sat, 24 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-11-24/</guid>
-      <description>从杭州到深圳，再从深圳到石家庄，我的不远万里南下又北上，不是</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-11-24/featured.webp" />
+      <description>&lt;p&gt;从杭州到深圳，再从深圳到石家庄，我的不远万里南下又北上，不是为了观看沿途的风景。而是，为了公司有史以来第一次一个亿的大项目。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>以后去哪儿</title>
       <link>https://bobergo.github.io/posts/2018-11-01/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-11-01/</guid>
-      <description>对很多人来说，这个问题可能会伴随你的整个职业生涯，永远没有一</description>
-      
+      <description>&lt;p&gt;对很多人来说，这个问题可能会伴随你的整个职业生涯，永远没有一个确切的答案。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>北京</title>
       <link>https://bobergo.github.io/posts/2018-10-25/</link>
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-10-25/</guid>
-      <description>北京来的不多，也一直喜欢不起来。不过一些很有诗意与韵味的名字</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-25/featured.webp" />
+      <description>&lt;p&gt;北京来的不多，也一直喜欢不起来。不过一些很有诗意与韵味的名字一直留在脑海之中，比如陶然亭、紫竹苑，比如什刹海，比如公主坟、后海、香山等等。其实这些地方一个也没有到过，只是从书籍、电视中看到听到后自然而然留存在脑海中的记忆，也许这就是冥冥之中的缘分吧。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>深圳印象</title>
       <link>https://bobergo.github.io/posts/2018-10-21/</link>
       <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-10-21/</guid>
-      <description>深圳湾大桥和对面的香港 台风过后 深圳湾看福田 深圳湾看香港 大南山</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-21/featured.webp" />
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://bobergo.github.io/posts/2018-10-21/1.webp&#34; alt=&#34;/posts/2018-10-21/1.webp&#34; srcset=&#34;https://bobergo.github.io/posts/2018-10-21/1.webp?size=small, https://bobergo.github.io/posts/2018-10-21/1.webp?size=medium 1.5x, https://bobergo.github.io/posts/2018-10-21/1.webp?size=large 2x&#34; data-title=&#34;深圳湾大桥和对面的香港&#34; style=&#34;--width: 1500px;--aspect-ratio: 1500 / 1120;background: url(/images/loading.min.svg) no-repeat center;&#34; onload=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}this.dataset.lazyloaded=&#39;&#39;;&#34; onerror=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}&#34;/&gt;&#xA;&lt;img loading=&#34;lazy&#34; src=&#34;https://bobergo.github.io/posts/2018-10-21/2.webp&#34; alt=&#34;/posts/2018-10-21/2.webp&#34; srcset=&#34;https://bobergo.github.io/posts/2018-10-21/2.webp?size=small, https://bobergo.github.io/posts/2018-10-21/2.webp?size=medium 1.5x, https://bobergo.github.io/posts/2018-10-21/2.webp?size=large 2x&#34; data-title=&#34;台风过后&#34; style=&#34;--width: 1500px;--aspect-ratio: 1500 / 2008;background: url(/images/loading.min.svg) no-repeat center;&#34; onload=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}this.dataset.lazyloaded=&#39;&#39;;&#34; onerror=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}&#34;/&gt;&#xA;&lt;img loading=&#34;lazy&#34; src=&#34;https://bobergo.github.io/posts/2018-10-21/3.webp&#34; alt=&#34;/posts/2018-10-21/3.webp&#34; srcset=&#34;https://bobergo.github.io/posts/2018-10-21/3.webp?size=small, https://bobergo.github.io/posts/2018-10-21/3.webp?size=medium 1.5x, https://bobergo.github.io/posts/2018-10-21/3.webp?size=large 2x&#34; data-title=&#34;深圳湾看福田&#34; style=&#34;--width: 1500px;--aspect-ratio: 1500 / 1000;background: url(/images/loading.min.svg) no-repeat center;&#34; onload=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}this.dataset.lazyloaded=&#39;&#39;;&#34; onerror=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}&#34;/&gt;&#xA;&lt;img loading=&#34;lazy&#34; src=&#34;https://bobergo.github.io/posts/2018-10-21/4.webp&#34; alt=&#34;/posts/2018-10-21/4.webp&#34; srcset=&#34;https://bobergo.github.io/posts/2018-10-21/4.webp?size=small, https://bobergo.github.io/posts/2018-10-21/4.webp?size=medium 1.5x, https://bobergo.github.io/posts/2018-10-21/4.webp?size=large 2x&#34; data-title=&#34;深圳湾看香港&#34; style=&#34;--width: 1500px;--aspect-ratio: 1500 / 1000;background: url(/images/loading.min.svg) no-repeat center;&#34; onload=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}this.dataset.lazyloaded=&#39;&#39;;&#34; onerror=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}&#34;/&gt;&#xA;&lt;img loading=&#34;lazy&#34; src=&#34;https://bobergo.github.io/posts/2018-10-21/5.webp&#34; alt=&#34;/posts/2018-10-21/5.webp&#34; srcset=&#34;https://bobergo.github.io/posts/2018-10-21/5.webp?size=small, https://bobergo.github.io/posts/2018-10-21/5.webp?size=medium 1.5x, https://bobergo.github.io/posts/2018-10-21/5.webp?size=large 2x&#34; data-title=&#34;大南山顶&#34; style=&#34;--width: 1500px;--aspect-ratio: 1500 / 1120;background: url(/images/loading.min.svg) no-repeat center;&#34; onload=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}this.dataset.lazyloaded=&#39;&#39;;&#34; onerror=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}&#34;/&gt;&#xA;&lt;img loading=&#34;lazy&#34; src=&#34;https://bobergo.github.io/posts/2018-10-21/6.webp&#34; alt=&#34;/posts/2018-10-21/6.webp&#34; srcset=&#34;https://bobergo.github.io/posts/2018-10-21/6.webp?size=small, https://bobergo.github.io/posts/2018-10-21/6.webp?size=medium 1.5x, https://bobergo.github.io/posts/2018-10-21/6.webp?size=large 2x&#34; data-title=&#34;蔚蓝的大海&#34; style=&#34;--width: 1500px;--aspect-ratio: 1500 / 1120;background: url(/images/loading.min.svg) no-repeat center;&#34; onload=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}this.dataset.lazyloaded=&#39;&#39;;&#34; onerror=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}&#34;/&gt;&#xA;&lt;img loading=&#34;lazy&#34; src=&#34;https://bobergo.github.io/posts/2018-10-21/7.webp&#34; alt=&#34;/posts/2018-10-21/7.webp&#34; srcset=&#34;https://bobergo.github.io/posts/2018-10-21/7.webp?size=small, https://bobergo.github.io/posts/2018-10-21/7.webp?size=medium 1.5x, https://bobergo.github.io/posts/2018-10-21/7.webp?size=large 2x&#34; data-title=&#34;大梅沙海滨栈道&#34; style=&#34;--width: 1500px;--aspect-ratio: 1500 / 1120;background: url(/images/loading.min.svg) no-repeat center;&#34; onload=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}this.dataset.lazyloaded=&#39;&#39;;&#34; onerror=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}&#34;/&gt;&#xA;&lt;img loading=&#34;lazy&#34; src=&#34;https://bobergo.github.io/posts/2018-10-21/8.webp&#34; alt=&#34;/posts/2018-10-21/8.webp&#34; srcset=&#34;https://bobergo.github.io/posts/2018-10-21/8.webp?size=small, https://bobergo.github.io/posts/2018-10-21/8.webp?size=medium 1.5x, https://bobergo.github.io/posts/2018-10-21/8.webp?size=large 2x&#34; data-title=&#34;明斯克航母，可惜现在已经离开深圳了&#34; style=&#34;--width: 1500px;--aspect-ratio: 1500 / 1000;background: url(/images/loading.min.svg) no-repeat center;&#34; onload=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}this.dataset.lazyloaded=&#39;&#39;;&#34; onerror=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}&#34;/&gt;&#xA;&lt;img loading=&#34;lazy&#34; src=&#34;https://bobergo.github.io/posts/2018-10-21/9.webp&#34; alt=&#34;/posts/2018-10-21/9.webp&#34; srcset=&#34;https://bobergo.github.io/posts/2018-10-21/9.webp?size=small, https://bobergo.github.io/posts/2018-10-21/9.webp?size=medium 1.5x, https://bobergo.github.io/posts/2018-10-21/9.webp?size=large 2x&#34; data-title=&#34;明斯克航母，可惜现在已经离开深圳了&#34; style=&#34;--width: 1500px;--aspect-ratio: 1500 / 1000;background: url(/images/loading.min.svg) no-repeat center;&#34; onload=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}this.dataset.lazyloaded=&#39;&#39;;&#34; onerror=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}&#34;/&gt;&#xA;&lt;img loading=&#34;lazy&#34; src=&#34;https://bobergo.github.io/posts/2018-10-21/10.webp&#34; alt=&#34;/posts/2018-10-21/10.webp&#34; srcset=&#34;https://bobergo.github.io/posts/2018-10-21/10.webp?size=small, https://bobergo.github.io/posts/2018-10-21/10.webp?size=medium 1.5x, https://bobergo.github.io/posts/2018-10-21/10.webp?size=large 2x&#34; data-title=&#34;很常见的公园&#34; style=&#34;--width: 1500px;--aspect-ratio: 1500 / 1000;background: url(/images/loading.min.svg) no-repeat center;&#34; onload=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}this.dataset.lazyloaded=&#39;&#39;;&#34; onerror=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}&#34;/&gt;&#xA;&lt;img loading=&#34;lazy&#34; src=&#34;https://bobergo.github.io/posts/2018-10-21/11.webp&#34; alt=&#34;/posts/2018-10-21/11.webp&#34; srcset=&#34;https://bobergo.github.io/posts/2018-10-21/11.webp?size=small, https://bobergo.github.io/posts/2018-10-21/11.webp?size=medium 1.5x, https://bobergo.github.io/posts/2018-10-21/11.webp?size=large 2x&#34; data-title=&#34;很常见的绿道&#34; style=&#34;--width: 1500px;--aspect-ratio: 1500 / 2250;background: url(/images/loading.min.svg) no-repeat center;&#34; onload=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}this.dataset.lazyloaded=&#39;&#39;;&#34; onerror=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}&#34;/&gt;&#xA;&lt;img loading=&#34;lazy&#34; src=&#34;https://bobergo.github.io/posts/2018-10-21/12.webp&#34; alt=&#34;/posts/2018-10-21/12.webp&#34; srcset=&#34;https://bobergo.github.io/posts/2018-10-21/12.webp?size=small, https://bobergo.github.io/posts/2018-10-21/12.webp?size=medium 1.5x, https://bobergo.github.io/posts/2018-10-21/12.webp?size=large 2x&#34; data-title=&#34;繁忙的蛇口港&#34; style=&#34;--width: 1500px;--aspect-ratio: 1500 / 1000;background: url(/images/loading.min.svg) no-repeat center;&#34; onload=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}this.dataset.lazyloaded=&#39;&#39;;&#34; onerror=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}&#34;/&gt;&#xA;&lt;img loading=&#34;lazy&#34; src=&#34;https://bobergo.github.io/posts/2018-10-21/13.webp&#34; alt=&#34;/posts/2018-10-21/13.webp&#34; srcset=&#34;https://bobergo.github.io/posts/2018-10-21/13.webp?size=small, https://bobergo.github.io/posts/2018-10-21/13.webp?size=medium 1.5x, https://bobergo.github.io/posts/2018-10-21/13.webp?size=large 2x&#34; data-title=&#34;繁忙的蛇口港&#34; style=&#34;--width: 1500px;--aspect-ratio: 1500 / 1000;background: url(/images/loading.min.svg) no-repeat center;&#34; onload=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}this.dataset.lazyloaded=&#39;&#39;;&#34; onerror=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}&#34;/&gt;&#xA;&lt;img loading=&#34;lazy&#34; src=&#34;https://bobergo.github.io/posts/2018-10-21/14.webp&#34; alt=&#34;/posts/2018-10-21/14.webp&#34; srcset=&#34;https://bobergo.github.io/posts/2018-10-21/14.webp?size=small, https://bobergo.github.io/posts/2018-10-21/14.webp?size=medium 1.5x, https://bobergo.github.io/posts/2018-10-21/14.webp?size=large 2x&#34; data-title=&#34;50公里徒步&#34; style=&#34;--width: 1500px;--aspect-ratio: 1500 / 1000;background: url(/images/loading.min.svg) no-repeat center;&#34; onload=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}this.dataset.lazyloaded=&#39;&#39;;&#34; onerror=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}&#34;/&gt;&#xA;&lt;img loading=&#34;lazy&#34; src=&#34;https://bobergo.github.io/posts/2018-10-21/15.webp&#34; alt=&#34;/posts/2018-10-21/15.webp&#34; srcset=&#34;https://bobergo.github.io/posts/2018-10-21/15.webp?size=small, https://bobergo.github.io/posts/2018-10-21/15.webp?size=medium 1.5x, https://bobergo.github.io/posts/2018-10-21/15.webp?size=large 2x&#34; data-title=&#34;50公里徒步之晨曦&#34; style=&#34;--width: 1500px;--aspect-ratio: 1500 / 1000;background: url(/images/loading.min.svg) no-repeat center;&#34; onload=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}this.dataset.lazyloaded=&#39;&#39;;&#34; onerror=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}&#34;/&gt;&#xA;&lt;img loading=&#34;lazy&#34; src=&#34;https://bobergo.github.io/posts/2018-10-21/featured.webp&#34; alt=&#34;/posts/2018-10-21/featured.webp&#34; srcset=&#34;https://bobergo.github.io/posts/2018-10-21/featured.webp?size=small, https://bobergo.github.io/posts/2018-10-21/featured.webp?size=medium 1.5x, https://bobergo.github.io/posts/2018-10-21/featured.webp?size=large 2x&#34; data-title=&#34;美丽的西冲&#34; style=&#34;--width: 1500px;--aspect-ratio: 1500 / 842;background: url(/images/loading.min.svg) no-repeat center;&#34; onload=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}this.dataset.lazyloaded=&#39;&#39;;&#34; onerror=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}&#34;/&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>十年光阴</title>
       <link>https://bobergo.github.io/posts/2018-10-20/</link>
       <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-10-20/</guid>
-      <description>真的是不知不觉，与深圳这片土地已经有接近十年的交情了。 我可能</description>
-      
+      <description>&lt;p&gt;真的是不知不觉，与深圳这片土地已经有接近十年的交情了。&lt;/p&gt;&#xA;&lt;p&gt;我可能永远也不会忘记2009年4月15日坐飞机到深圳的情、景、人，那时对即将展现在眼前的美好的、花花世界一般的、五颜六色的深圳的憧憬让我全程保持在兴奋的G点。虽然当天到深圳后的的所见所闻有点打击到了我，一周年时还专门写文难忘4.15纪念，但这样的第一印象依然没有阻止我慢慢地喜欢上这座城市。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>松树林IN杭州</title>
       <link>https://bobergo.github.io/posts/2018-10-16/</link>
       <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-10-16/</guid>
-      <description>松树林在杭州的越野圈堪称是一块圣地了，各种地形地貌与纵横交错</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-16/featured.webp" />
+      <description>&lt;p&gt;松树林在杭州的越野圈堪称是一块圣地了，各种地形地貌与纵横交错的路线，无论你是越野菜鸟还是圈里大V，在这里都能找到属于你的乐趣。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>贵阳的第N次</title>
       <link>https://bobergo.github.io/posts/2018-10-15/</link>
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-10-15/</guid>
-      <description>数不清楚第几次来贵阳了，没记错的话第一次是在2012年，还被</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-15/featured.webp" />
+      <description>&lt;p&gt;数不清楚第几次来贵阳了，没记错的话第一次是在2012年，还被T哥招待喝酒喝到吐的稀里哗啦，丢人丢到家。再后来每年都要来个几次，跟这里真是缘份不浅。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>橘子洲</title>
       <link>https://bobergo.github.io/posts/2018-10-13/</link>
       <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-10-13/</guid>
-      <description>偷得半日闲，橘子洲头一游。 枫叶还未全红。 主席画像巍峨矗立，指</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-13/featured.webp" />
+      <description>&lt;p&gt;偷得半日闲，橘子洲头一游。&lt;/p&gt;&#xA;&lt;p&gt;枫叶还未全红。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://bobergo.github.io/posts/2018-10-13/1.webp&#34; alt=&#34;/posts/2018-10-13/1.webp&#34; srcset=&#34;https://bobergo.github.io/posts/2018-10-13/1.webp?size=small, https://bobergo.github.io/posts/2018-10-13/1.webp?size=medium 1.5x, https://bobergo.github.io/posts/2018-10-13/1.webp?size=large 2x&#34; data-title=&#34;/posts/2018-10-13/1.webp&#34; style=&#34;--width: 1500px;--aspect-ratio: 1500 / 2000;background: url(/images/loading.min.svg) no-repeat center;&#34; onload=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}this.dataset.lazyloaded=&#39;&#39;;&#34; onerror=&#34;this.title=this.dataset.title;for(const i of [&#39;style&#39;, &#39;data-title&#39;,&#39;onerror&#39;,&#39;onload&#39;]){this.removeAttribute(i);}&#34;/&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Q3销售会议思考之二</title>
       <link>https://bobergo.github.io/posts/2018-10-10/</link>
       <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-10-10/</guid>
-      <description>今天讨论各区域的项目合同、回款及销售过程中遇到的问题，6个大</description>
-      
+      <description>&lt;p&gt;今天讨论各区域的项目合同、回款及销售过程中遇到的问题，6个大区依次汇报分享。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Q3销售会议思考之一</title>
       <link>https://bobergo.github.io/posts/2018-10-09/</link>
       <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-10-09/</guid>
-      <description>每一季度都会进行销售会议回顾，会把各大区总监、办事处主任以及</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2018-10-09/featured.webp" />
+      <description>&lt;p&gt;每一季度都会进行销售会议回顾，会把各大区总监、办事处主任以及公司高层领导、咨询师召集至某城市某酒店进行上季度销售工作回顾与下季度工作部署。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>重拾</title>
       <link>https://bobergo.github.io/posts/2018-10-08/</link>
       <pubDate>Mon, 08 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2018-10-08/</guid>
-      <description>自己总对别人吹嘘说自己也是喜欢读书与写字的人，其实潜意识里面</description>
-      
+      <description>&lt;p&gt;自己总对别人吹嘘说自己也是喜欢读书与写字的人，其实潜意识里面还确实是比较喜欢的，但是不可否认的是，这些年确实是荒废了。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>难忘4.15</title>
       <link>https://bobergo.github.io/posts/2010-04-15/</link>
       <pubDate>Thu, 15 Apr 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2010-04-15/</guid>
-      <description>兴奋的4月15日，去年的今天，我怀着满心的新奇与期待，登上飞</description>
-      
+      <description>&lt;p&gt;兴奋的4月15日，去年的今天，我怀着满心的新奇与期待，登上飞机，飞往梦里都没有见过的城市。飞机腾空而起时，我俯瞰大地，所有的土地建筑都尽收眼底，那是何等的气魄，一路的兴奋难抑，一路的观望期待，所听到的所看到的，之前我都闻所未闻…&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>目标和行动</title>
       <link>https://bobergo.github.io/posts/2010-02-04/</link>
       <pubDate>Thu, 04 Feb 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2010-02-04/</guid>
-      <description>20多天了，不知不觉。 刚出来时，梦死醉生的生活，一天中，睡觉</description>
-      
+      <description>&lt;p&gt;20多天了，不知不觉。&lt;/p&gt;&#xA;&lt;p&gt;刚出来时，梦死醉生的生活，一天中，睡觉时间超过24小时，与世隔绝。早上醒来，总是控制不住自己会继续睡下，渐渐的，不觉中就被懒惰这个恶魔所吞噬。而更可怕的是我竟然没有感觉，麻木，任这些牛鬼蛇神瓜分着我青春的血肉。人最大的敌人是自己，我就这样被自己打败。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>离开</title>
       <link>https://bobergo.github.io/posts/2010-01-25/</link>
       <pubDate>Mon, 25 Jan 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2010-01-25/</guid>
-      <description>最后还是离开了，因为事情的发展已经到了让我再呆下去没意思的地</description>
-      
+      <description>&lt;p&gt;最后还是离开了，因为事情的发展已经到了让我再呆下去没意思的地步，我将辞职报告递给张总，眼泪禁不住往下掉，这两天，不知道这样掉眼泪掉了几次了，聆听着张总述说这一路走来的喜怒哀乐，心里是说不出的难受，无言，简单的祝福后，我向张总深鞠一躬，将所有的愧意和歉意，都容于此吧。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Job</title>
       <link>https://bobergo.github.io/posts/2010-01-02/</link>
       <pubDate>Sat, 02 Jan 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2010-01-02/</guid>
-      <description>工作，我生活的全部，God！ 早晨8：10分起床，洗、漱、吃饭</description>
-      
+      <description>&lt;p&gt;工作，我生活的全部，God！&lt;/p&gt;&#xA;&lt;p&gt;早晨8：10分起床，洗、漱、吃饭，9点钟准时上班，12点吃午餐，1点又开始，到下午6点，然后大家再忙活忙活，7点半左右8点的样子，大家走了，开始做晚餐，8点半9点，一切收拾完毕，在下面呆一会，上楼，针对工作又开始谈谈想想，说说干干，以张总的思路为主导，我们紧紧相随，跟不上，但过程却是必须的。凌晨1~2点，上床睡觉。哦了，一天交代。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>关于昨天</title>
       <link>https://bobergo.github.io/posts/2010-01-01/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2010-01-01/</guid>
-      <description>在山西出差，呆了十多天，天气很冷，寒冷的日子里，心也几乎要冷</description>
-      
+      <description>&lt;p&gt;在山西出差，呆了十多天，天气很冷，寒冷的日子里，心也几乎要冷下去，每天不想思考事情，就是管好自己手头上的事情，兢兢业业，无欲无求。到了快回来时，心里竟然有了回避的想法，是啊，安逸的生活，心轻气闲的，多好，人变得懒惰，不仅安于现状，还很害怕改变，不能进步，倒是倒退了不少。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>心情</title>
       <link>https://bobergo.github.io/posts/2009-12-03/</link>
       <pubDate>Thu, 03 Dec 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2009-12-03/</guid>
-      <description>过去的一周，太多的事情发生，到现在，才得以抽空记载，点点滴滴</description>
-      
+      <description>&lt;p&gt;过去的一周，太多的事情发生，到现在，才得以抽空记载，点点滴滴，让我感慨万千。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>泪</title>
       <link>https://bobergo.github.io/posts/2009-11-24/</link>
       <pubDate>Tue, 24 Nov 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2009-11-24/</guid>
-      <description>一个人在外，却意外地不是非常的想家。有些时候，竟会为往家里打</description>
-      
+      <description>&lt;p&gt;一个人在外，却意外地不是非常的想家。有些时候，竟会为往家里打电话而生厌，觉得反正远在他乡，联系不能解决什么实质问题，倒不如不联系的好。这是多少年来，我的脾性、经历而渐渐形成的一种比较忧郁的不健康的生活态度。本来亲人之间，也就是个唠唠家常，能有多少事情？可我总会觉得如果只是说说闲话，倒不如不说的好，也许是感叹自己“不济”或是“不尽如人意”，总之，是因为自己的不好，而影响了和家人的沟通交流。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>极速</title>
       <link>https://bobergo.github.io/posts/2009-11-21/</link>
       <pubDate>Sat, 21 Nov 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2009-11-21/</guid>
-      <description>7：30分离开，11点到古镇，汽车在高速公路上以120公里/</description>
-      
+      <description>&lt;p&gt;7：30分离开，11点到古镇，汽车在高速公路上以120公里/小时的速度疾驰，我喜欢这种速度的感觉，坐在车里，超越，飞一般。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tomorrow</title>
       <link>https://bobergo.github.io/posts/2009-11-15/</link>
       <pubDate>Sun, 15 Nov 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2009-11-15/</guid>
-      <description>Sunday. 醒来的时候已经是上午11点多了，迷迷糊糊的，竟然又睡了过去</description>
-      
+      <description>&lt;p&gt;Sunday.&lt;/p&gt;&#xA;&lt;p&gt;醒来的时候已经是上午11点多了，迷迷糊糊的，竟然又睡了过去，这样一晃，就到了下午2点，哎，拖沓的日子，我讨厌这样的生活。我想象中的生活，是干净的衣服、温馨的家；是奢华的商场，讲究的人；是活力的舞池，疯狂的男女；是高雅的办公室，如鱼得水的工作&amp;hellip;终归是想象。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2009年11月12日</title>
       <link>https://bobergo.github.io/posts/2009-11-12/</link>
       <pubDate>Thu, 12 Nov 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2009-11-12/</guid>
-      <description>突然感觉莫名的兴奋，刚刚跟老板通完电话，汇报了下几天的工作，</description>
-      
+      <description>&lt;p&gt;突然感觉莫名的兴奋，刚刚跟老板通完电话，汇报了下几天的工作，又唠唠叨叨聊了一些，觉得，就像是憋在心里很久的话突然说了出来的痛快，可也没说什么啊，那是怎么着的呢？&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>项目，项目</title>
       <link>https://bobergo.github.io/posts/2009-11-09/</link>
       <pubDate>Mon, 09 Nov 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2009-11-09/</guid>
-      <description>同事刚刚下班，为了一个项目，总是出不来，好烦。 上个项目还没有</description>
-      
+      <description>&lt;p&gt;同事刚刚下班，为了一个项目，总是出不来，好烦。&lt;/p&gt;&#xA;&lt;p&gt;上个项目还没有彻底搞完，紧接着就又来一个新的，而且任务更坚、挑战更大，它涉及到厂家资源的整合、恰谈、自己项目的开发等等一系列问题，好多都是从来没有试过的，时间短、任务重，过程中偶尔遇到一个项目卡住、一个事情没办好的时候，就会把心情弄得很糟，就想fuck this life&amp;hellip;就像今天这样。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Sunday</title>
       <link>https://bobergo.github.io/posts/2009-11-08/</link>
       <pubDate>Sun, 08 Nov 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2009-11-08/</guid>
-      <description>一如往昔，周六总结一下一周的工作，做培训。不知为什么，会上，</description>
-      
+      <description>&lt;p&gt;一如往昔，周六总结一下一周的工作，做培训。不知为什么，会上，我听到别人提出的意见和建议，有见识的、对公司发展有意义的，私下里，我却不耻的很，不知是哀叹自己为何没有提出，还别的什么。总之，常常会产生“这一切的一切都是一种形式上的欺骗，有什么意思”这样的想法。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Just run</title>
       <link>https://bobergo.github.io/posts/2009-11-07/</link>
       <pubDate>Sat, 07 Nov 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2009-11-07/</guid>
-      <description>第一次看《Forrest Gump》，就喜欢上了这部电影，很长</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2009-11-07/featured.png" />
+      <description>&lt;p&gt;第一次看《Forrest Gump》，就喜欢上了这部电影，很长时间了，一直没有改变过。无论何时，打开来看，都能随着剧中人情中事一起进入一个幻想中的境界，一个冥冥之中的梦想&amp;hellip;一个美好的期待的完美世界。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

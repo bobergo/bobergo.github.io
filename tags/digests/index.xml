@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Digests on 迷途小书童</title>
+    <title>Digests - Tag - 迷途小书童</title>
     <link>https://bobergo.github.io/tags/digests/</link>
-    <description>Recent content in Digests on 迷途小书童</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>迷途小书童&#39;s Blog.</description>
+    <generator>Hugo 0.135.0 &amp; FixIt v0.3.13-95436c11</generator>
     <language>en</language>
-    
-    <lastBuildDate>Mon, 04 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://bobergo.github.io/tags/digests/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 17:39:48 +0800</lastBuildDate>
+    <atom:link href="https://bobergo.github.io/tags/digests/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>张仪的千古之骂之一</title>
       <link>https://bobergo.github.io/posts/2019-03-04/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://bobergo.github.io/posts/2019-03-04/</guid>
-      <description>张仪，以灵牙利口纵横战国，叱咤风云。孟轲，也就是孟子，儒家名</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bobergo.github.io/posts/2019-03-04/featured.webp" />
+      <description>&lt;p&gt;张仪，以灵牙利口纵横战国，叱咤风云。孟轲，也就是孟子，儒家名望，我们都学过他的《生于忧患，死于安乐》，也常听到”孔孟之道”，所以论知名度、论圣贤之争，可能还是孟子更广为人知一些。不过，《大秦帝国》中张仪与孟子、儒家的几次论战，着实让我有些重新认识了孟子与儒家学派。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
