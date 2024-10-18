@@ -2,11 +2,12 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
   ><url>
-      <loc>https://bobergo.github.io/tags/cars/</loc><lastmod>2024-10-10T17:47:12&#43;08:00</lastmod><changefreq>always</changefreq><priority>1</priority></url><url>
-      <loc>https://bobergo.github.io/posts/2023-12-22/</loc><lastmod>2024-10-10T17:47:12&#43;08:00</lastmod><changefreq>always</changefreq><priority>1</priority></url><url>
+      <loc>https://bobergo.github.io/tags/days/</loc><lastmod>2024-10-18T18:04:52&#43;08:00</lastmod><changefreq>always</changefreq><priority>1</priority></url><url>
+      <loc>https://bobergo.github.io/posts/2024-10-18/</loc><lastmod>2024-10-18T18:04:52&#43;08:00</lastmod><changefreq>always</changefreq><priority>1</priority></url><url>
+      <loc>https://bobergo.github.io/tags/cars/</loc><lastmod>2024-10-18T18:04:52&#43;08:00</lastmod><changefreq>always</changefreq><priority>1</priority></url><url>
+      <loc>https://bobergo.github.io/posts/2023-12-22/</loc><lastmod>2024-10-18T18:04:52&#43;08:00</lastmod><changefreq>always</changefreq><priority>1</priority></url><url>
       <loc>https://bobergo.github.io/tags/%E5%B0%8F%E5%A8%83/</loc><lastmod>2023-10-07T17:39:48&#43;08:00</lastmod><changefreq>always</changefreq><priority>0.5</priority></url><url>
       <loc>https://bobergo.github.io/posts/2023-10-06/</loc><lastmod>2023-10-07T17:39:48&#43;08:00</lastmod><changefreq>always</changefreq><priority>0.5</priority></url><url>
-      <loc>https://bobergo.github.io/tags/days/</loc><lastmod>2023-10-07T17:58:17&#43;08:00</lastmod><changefreq>always</changefreq><priority>0.5</priority></url><url>
       <loc>https://bobergo.github.io/posts/2023-09-15-first/</loc><lastmod>2023-10-07T17:39:48&#43;08:00</lastmod><changefreq>always</changefreq><priority>0.5</priority></url><url>
       <loc>https://bobergo.github.io/posts/2022-11-20/</loc><lastmod>2023-10-07T17:39:48&#43;08:00</lastmod><changefreq>always</changefreq><priority>0.5</priority></url><url>
       <loc>https://bobergo.github.io/posts/</loc><lastmod>2023-10-07T17:39:48&#43;08:00</lastmod><changefreq>always</changefreq><priority>0.5</priority></url><url>
@@ -48,7 +49,7 @@
       <loc>https://bobergo.github.io/posts/2009-11-09/</loc><lastmod>2023-10-07T17:39:48&#43;08:00</lastmod><changefreq>always</changefreq><priority>0.5</priority></url><url>
       <loc>https://bobergo.github.io/posts/2009-11-08/</loc><lastmod>2023-10-07T17:39:48&#43;08:00</lastmod><changefreq>always</changefreq><priority>0.5</priority></url><url>
       <loc>https://bobergo.github.io/posts/2009-11-07/</loc><lastmod>2023-10-07T17:58:17&#43;08:00</lastmod><changefreq>always</changefreq><priority>0.5</priority></url><url>
-      <loc>https://bobergo.github.io/</loc><lastmod>2024-10-10T17:47:12&#43;08:00</lastmod><changefreq>always</changefreq><priority>1</priority></url><url>
+      <loc>https://bobergo.github.io/</loc><lastmod>2024-10-10T17:47:12&#43;08:00</lastmod><changefreq>always</changefreq><priority>0.9</priority></url><url>
       <loc>https://bobergo.github.io/authors/</loc><changefreq>always</changefreq><priority>0.5</priority></url><url>
       <loc>https://bobergo.github.io/categories/</loc><changefreq>always</changefreq><priority>0.5</priority></url><url>
       <loc>https://bobergo.github.io/collections/</loc><changefreq>always</changefreq><priority>0.5</priority></url><url>
